@@ -117,3 +117,70 @@ A US LLC owned by a non-US person is:
 - You're considering changing tax residency
 - You sell to EU consumers (VAT complexity)
 - Your situation involves more than 2 countries
+
+## Cryptocurrency & Digital Asset Income
+
+### Core Rule
+Crypto is not a magic tax escape. Most jurisdictions treat it as property or income — the same rules that apply to cash apply to crypto, just with more complexity.
+
+### Receiving Crypto as Payment
+- Taxable as **ordinary income** at the fair market value (FMV) at the time of receipt — in virtually all jurisdictions
+- Receiving $5,000 worth of ETH for a consulting project = $5,000 of business income
+- Your cost basis in that ETH is the FMV at receipt; any future gain/loss is calculated from that basis
+- **Stablecoins (USDC/USDT)**: treated the same as other crypto in most jurisdictions; receiving $1,000 USDC = $1,000 taxable income
+
+### Holding Crypto: Capital Gains on Disposal
+A "disposal" includes: selling for fiat, swapping one token for another, and spending crypto on goods/services.
+
+| Country | Crypto Income Tax | Capital Gains on Disposal | Key Reporting |
+|---------|------------------|--------------------------|---------------|
+| US | Ordinary income rates | Short-term (ordinary rates) if held <1yr; Long-term (0/15/20%) if held >1yr | Form 8949, Schedule D |
+| Germany | Ordinary income if held <1yr; **tax-free if held >1yr** | Same as income treatment (see left) | Anlage SO |
+| Singapore | Income tax if trading is deemed a "business"; otherwise 0% | 0% (no capital gains tax) | IRAS filing |
+| Portugal | 28% flat on gains held <365 days; **exempt if held >365 days** | See left | IRS filing |
+| UAE | 0% | 0% | None required |
+| Japan | Up to 55% as "miscellaneous income" (総合課税) | Same — no preferential rate | 確定申告 |
+| India | 30% flat + 4% cess on all crypto gains; 1% TDS on transactions | Same flat rate | ITR with Schedule VDA |
+
+### DeFi & Staking Income
+- Most countries treat staking rewards and yield farming as **income at FMV when received**
+- Tax treatment of DeFi transactions (LP positions, liquidity provision, token swaps) is unclear in many jurisdictions — many tax authorities have not issued formal guidance
+- Conservative approach: treat every token swap as a disposal event and recognize gain/loss
+
+### CARF: The Coming Crackdown
+- CRS (Common Reporting Standard) currently does **not** cover crypto exchanges — so foreign crypto accounts are not auto-reported cross-border today
+- CARF (Crypto-Asset Reporting Framework), developed by the OECD, will require crypto exchanges to report to tax authorities, similar to CRS for banks
+- **Expected implementation: 2027** in most adopting countries
+- Implication: crypto tax gaps that exist today will close; report correctly now or face retroactive exposure
+
+## SaaS Revenue Recognition Basics
+
+### Cash vs. Accrual
+Most solo founders use **cash basis** accounting (simpler, legal for small businesses in most jurisdictions): income is recognized when cash is received, expenses when paid.
+
+**Accrual basis**: income recognized when earned (service delivered), regardless of when payment arrives. Required in some jurisdictions above certain revenue thresholds.
+
+### Annual Subscriptions: Cash vs. Accrual Comparison
+
+| Scenario | Cash Basis | Accrual Basis |
+|----------|-----------|---------------|
+| $1,200/yr plan paid in January | $1,200 income in January | $100/month over 12 months |
+| $99/mo plan, paid monthly | $99 income each month | Same |
+| $2,400/yr paid in Q4 | $2,400 income in Q4 | ~$200/mo deferred over contract period |
+
+### Jurisdiction Requirements
+
+| Entity Type | Basis Required | Notes |
+|-------------|---------------|-------|
+| US LLC (single-member) | Cash basis OK for most | Switch to accrual if >$27M avg gross receipts (2024 threshold) |
+| Singapore Pte. Ltd. | Accrual basis required | FRS 115 applies; deferred revenue recognized monthly |
+| Estonia OÜ | Accrual basis required | EVS/IFRS standards apply |
+| UK Ltd | Depends on revenue | Cash basis allowed up to £150K turnover (sole traders); companies use accrual |
+| Germany GmbH/sole trader | Accrual if above thresholds | Einnahmen-Überschuss-Rechnung (EÜR) cash method for small sole traders |
+
+### Edge Cases
+
+- **Refunds**: reduce income in the period the refund is issued (cash basis); reverse the original revenue entry (accrual basis)
+- **Free trial → paid conversion**: no income during trial period; income recognized at first successful charge
+- **Lifetime deals (LTD)**: on cash basis, full amount recognized when received; on accrual basis, spread over estimated service life (creates complexity — factor this in before running LTD promotions)
+- **Chargebacks**: treat like refunds; the gross amount is removed from income in the period settled

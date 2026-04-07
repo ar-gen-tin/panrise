@@ -121,3 +121,230 @@
 - **All payment methods report to tax authorities** — Stripe sends 1099-K (US), payment providers report under CRS (Common Reporting Standard) internationally
 - **Crypto**: Increasingly tracked; most countries treat as taxable income
 - **PayPal/Wise balances**: Count as foreign bank accounts (FBAR reporting for US persons if >$10K aggregate)
+
+---
+
+## Account Freeze Emergency Protocol
+
+When Mercury, Wise, Stripe, or PayPal freezes your account, the first 24 hours matter most.
+
+### Immediate Steps
+1. **Do not panic-transfer** funds from other accounts — sudden movement across accounts signals more risk to fraud teams
+2. Contact support immediately via the highest-priority channel (Stripe: dashboard chat > email; Mercury: email support@mercury.com; Wise: in-app chat; PayPal: phone 1-888-221-1161 > chat)
+3. Screenshot every notification, email, and error message — you'll need a paper trail
+4. Keep the account active but don't attempt logins from new devices or locations (triggers additional flags)
+5. Do not open a second account with the same platform while the first is under review — grounds for permanent ban
+
+### Required Documentation to Unfreeze
+
+| Platform | Typical Docs Required |
+|----------|----------------------|
+| Stripe | Government ID, proof of business address, recent invoices, website URL, bank statement |
+| Mercury | EIN letter, articles of incorporation, operating agreement, utility bill or lease, description of business |
+| Wise | Business registration, UBO (ultimate beneficial owner) declaration, proof of address, source of funds statement |
+| PayPal | ID, proof of address, bank statement, invoices for recent transactions, tracking/delivery confirmation |
+
+**Source of funds**: Write a brief plain-English explanation of where your revenue comes from. "We sell B2B SaaS subscriptions to US customers; attached are sample invoices" is more useful than a spreadsheet.
+
+### Timeline Expectations
+
+| Platform | Typical Review Time | Worst Case |
+|----------|-------------------|------------|
+| Stripe | 1–3 business days | 7 days; funds held 90 days if terminated |
+| Mercury | 3–7 business days | 14 days |
+| Wise | 2–5 business days | 21 days |
+| PayPal | 3–10 business days | **180-day hold** on funds if account limited |
+
+PayPal's 180-day hold is well-documented and nearly impossible to shorten — plan accordingly.
+
+### Prevention: Multi-Bank Strategy
+
+Never run your business through a single financial account. Minimum viable setup:
+
+- **Primary**: Mercury (main operations, Stripe payouts)
+- **Secondary**: Wise Business (multi-currency, backup receiving)
+- **Emergency reserve**: A separate account with 2–3 months of operating expenses, never connected to payment processors
+
+**Backup banks to have pre-approved** (open accounts before you need them):
+
+| Bank | Best For | Notes |
+|------|----------|-------|
+| Relay | US LLC, fintech-friendly | No crypto restriction, good for backup |
+| Brex | VC-backed startups | Requires revenue or funding history |
+| Revolut Business | EU/UK-based ops | Multi-currency, fast opening |
+| Local bank (Chase, BOA) | US persons | Slower to open, but stable for ACH/wire |
+
+---
+
+## Chargeback Management
+
+### Stripe Dispute Thresholds
+
+| Rate | Consequence |
+|------|-------------|
+| 0.5% dispute rate | Warning email; monitoring begins |
+| 0.65% | Placed in Visa Dispute Monitoring Program (VDMP) |
+| 1.0% | Account review; risk of termination |
+| 1.5%+ | Visa High-Dispute Program; $50/chargeback fine |
+
+Dispute rate = disputes opened in a calendar month / transactions processed in that same month.
+
+### How to Respond to a Dispute (Stripe)
+
+**Deadline: 7 calendar days** from when Stripe notifies you. Missing the deadline = automatic loss.
+
+Evidence to submit (strongest to weakest):
+1. Signed contract or order confirmation
+2. Delivery confirmation (tracking number, signed receipt, email with download link + IP)
+3. Customer communications showing they received and used the product
+4. Refund policy clearly shown at checkout (screenshot)
+5. Login/usage logs showing the customer accessed the service post-purchase
+
+Stripe's evidence form has specific fields — fill every section. A detailed narrative ("Customer purchased on Jan 3, accessed dashboard on Jan 4-10 per attached logs...") matters more than raw files.
+
+### Prevention Checklist
+
+- **Statement descriptor**: Match your descriptor to your brand name (customers won't recognize "ACME CORP LLC" and will dispute it)
+- **Refund policy**: Display it on checkout page and in confirmation email — link to a dedicated URL
+- **Delivery confirmation**: For digital goods, log the IP address and timestamp of first access; send a "your download is ready" email as paper trail
+- **Clear communication**: Send receipts, usage summaries, and renewal reminders — most chargebacks are "I forgot I subscribed"
+- **Proactive refunds**: If a customer is upset, refund before they dispute — a refund costs $0, a lost dispute costs $15+ plus the transaction amount
+
+### Chargeback Protection Tools
+
+| Tool | Platform | Cost | Notes |
+|------|----------|------|-------|
+| Stripe Radar + Chargeback Protection | Stripe | 0.4% per transaction | Stripe covers the disputed amount if you lose |
+| Kount | Stripe/others | Custom pricing | ML-based fraud scoring |
+| Chargebacks911 | Any processor | Custom | Dispute management service, good for volume >20/month |
+| PayPal Seller Protection | PayPal | Free (built-in) | Covers eligible transactions automatically |
+
+---
+
+## High-Risk Industry Payment Solutions
+
+Stripe and PayPal both maintain restricted/prohibited business lists. If your business falls into a restricted category, you need a different processor from day one — attempting to use Stripe and getting terminated damages your processing history.
+
+### Restricted Categories (Stripe/PayPal Both Reject or Heavily Scrutinize)
+
+| Category | Stripe | PayPal |
+|----------|--------|--------|
+| CBD / hemp (no THC) | Case-by-case, restricted | Prohibited |
+| Cannabis (THC) | Prohibited | Prohibited |
+| Crypto exchange / NFT trading | Restricted | Restricted |
+| Adult content | Prohibited | Prohibited |
+| Online gambling | Prohibited | Prohibited |
+| Firearms / ammo | Prohibited | Restricted |
+| Supplements (weight loss, hormones) | Restricted | Case-by-case |
+| Telemarketing / MLM | Prohibited | Prohibited |
+
+### Alternative Processors by Category
+
+**Supplements / Nutraceuticals / Health**
+- PaymentCloud — specializes in high-risk; approves supplements, coaching, continuity billing
+- Durango Merchant Services — established high-risk processor; higher fees (3.5–5%) but stable
+- NMI (Network Merchants) — white-label gateway, works with high-risk acquiring banks
+
+**Adult Content**
+- Segpay — industry standard for adult platforms
+- Paxum — works with creators; also supports crypto withdrawals
+- CCBill — largest adult processor, built-in subscription management
+
+**Crypto / NFT / Web3**
+- BitPay — accepts BTC, ETH, stablecoins; settles in fiat or crypto
+- Coinbase Commerce — no fees on crypto transactions; good for one-time payments
+- Stripe Crypto Onramp — limited to fiat→crypto flows only, not general crypto businesses
+- MoonPay (B2B) — for embedding crypto purchase into your product
+
+**CBD / Cannabis**
+- Square — more lenient than Stripe for CBD (hemp-derived, <0.3% THC); review required
+- PaymentCloud — covers CBD merchant accounts
+- Paybotic — cannabis-specific; works in US states where legal
+
+### Crypto Company Banking
+
+| Bank | Crypto Policy |
+|------|--------------|
+| Mercury | Case-by-case review; crypto exchanges often rejected; holding/using crypto as treasury OK |
+| Relay | No stated crypto restriction; less scrutiny than Mercury for crypto-adjacent businesses |
+| Mercuryo Business | Crypto-native; accepts crypto companies, DeFi, NFT platforms |
+| Brex | Accepts crypto startups with VC backing; less friendly to early-stage |
+| Silvergate / Signature | Both failed in 2023 — no longer options |
+| Customers Bank | Replaced Silvergate for many crypto firms; CBIT network |
+
+### Pre-Approval Tips
+
+1. **Read the full Terms of Service before building** — "payment processing" section, not just the summary
+2. **Email risk@processor.com before applying** — ask if your specific business model is eligible; get confirmation in writing
+3. **Have a legal opinion letter ready** for anything involving cannabis, crypto, or financial services
+4. **Expect higher fees**: High-risk processing typically runs 3–5% + $0.20-0.50 per transaction vs. Stripe's 2.9% + $0.30
+5. **Rolling reserve**: Many high-risk processors hold 5–10% of monthly volume for 90–180 days as a reserve; factor this into cash flow
+
+---
+
+## Platform Creator Tax & Payments
+
+### YouTube / AdSense — Withholding Tax
+
+Google withholds US taxes from AdSense payments to non-US creators. Submitting the correct form dramatically reduces this.
+
+| Entity Type | Form to Submit | Withholding Without Form | With Treaty (e.g., Japan, UK) | With Treaty (No Treaty Country) |
+|-------------|---------------|-------------------------|-------------------------------|----------------------------------|
+| Individual (non-US) | W-8BEN | 30% | 0–15% depending on treaty | 30% |
+| LLC (non-US members) | W-8BEN-E | 30% | 0–15% depending on treaty | 30% |
+| US person / US LLC | W-9 | Backup withholding only | N/A | N/A |
+
+Key countries and their US tax treaty rates on YouTube income:
+- Japan: 0% (Article 12, royalties)
+- UK: 0%
+- Germany: 0%
+- Taiwan: 10%
+- Canada: 0–10%
+- No treaty (most Southeast Asia, Africa): 30%
+
+**Action**: Submit W-8BEN or W-8BEN-E in AdSense > Payments > Manage settings. Renew every 3 years.
+
+### Patreon
+
+- For **US entities**: Patreon issues a 1099-K if you process >$600/year (post-2023 IRS threshold change); income is taxable as ordinary income
+- For **non-US entities**: Patreon pays gross amounts; no US withholding on most creator income (considered services, not royalties); **your home country taxes apply**
+- Patreon fees: 8% (Lite), 12% (Pro), 15% (Premium) + Stripe/PayPal processing fees (~2.9% + $0.30)
+- Payout: Via Stripe or PayPal; same freeze risks apply
+
+### Substack
+
+- Substack uses **direct Stripe integration** — you are the merchant of record
+- Stripe fees: 2.9% + $0.30 per transaction
+- Substack's cut: 10% of paid subscription revenue
+- Tax: Stripe issues 1099-K for US entities; non-US entities receive gross; standard CRS reporting applies
+- For VAT: Substack **does not handle EU VAT** on your behalf — if you have EU subscribers and hit local thresholds, you are responsible (unlike Gumroad/Paddle which act as MoR)
+
+### Gumroad
+
+- Acts as **Merchant of Record** — handles VAT/GST globally
+- Gumroad's cut: 10% flat fee (as of 2023 pricing change)
+- Payouts: Weekly via PayPal or Stripe bank deposit
+- Tax reporting: Issues 1099-K for US persons; non-US creators get gross payments; Gumroad reports under CRS
+
+### Multiple Platform Income: VAT Threshold Aggregation
+
+If you earn across YouTube, Patreon, Substack, and Gumroad, **aggregate your EU digital services revenue** for VAT threshold purposes:
+
+- EU VAT OSS threshold: **€10,000/year** across all EU B2C digital sales
+- Once exceeded, you must register for VAT OSS in one EU country and report all EU sales
+- Gumroad/Paddle handle this for their platform sales; Stripe/Patreon/AdSense do not
+- Practical threshold: If you're earning <€10K from EU consumers total, you're likely under the threshold; above it, get an OSS registration
+
+### CRS / FATCA Reporting — What All Platforms Do
+
+Every major platform reports to tax authorities. There is no "under the radar" option:
+
+| Platform | Reports To | Mechanism |
+|----------|-----------|-----------|
+| YouTube/AdSense | IRS (1042-S for non-US), local tax auth | FATCA / CRS |
+| Patreon | IRS (1099-K), local auth via CRS | FATCA / CRS |
+| Stripe | IRS (1099-K), EU tax authorities | FATCA / CRS |
+| PayPal | IRS (1099-K), local auth via CRS | FATCA / CRS |
+| Gumroad | IRS (1099-K for US), CRS for non-US | FATCA / CRS |
+
+**Bottom line**: Declare all platform income. The question is not whether authorities will know, but whether you've applied for the correct treaties and deductions to minimize the rate.

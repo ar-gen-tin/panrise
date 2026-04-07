@@ -400,3 +400,127 @@ Don't rush to set up a company if:
 | Estonia OÜ | $600 | $300-500 | $600-1,200 | $1,500-2,300 |
 | UK Ltd | $60 | $200 | $500-1,500 | $760-1,760 |
 | Dubai Freezone | $3,000 | $3,000-5,000 | $1,000-2,000 | $7,000-10,000 |
+
+---
+
+## Operating Agreement & Succession Planning
+
+Every LLC owner needs to address this — it is not optional paperwork.
+
+### Why You Need an Operating Agreement (Even as a Single-Member LLC)
+
+Many solo founders skip this step because "it's just me." That's a mistake:
+
+- **State default rules apply without one** — each state has its own LLC statutes that fill the gaps; those defaults are rarely what you actually want
+- **Banks may require it** — Mercury, HSBC, and most business banks ask for your Operating Agreement when opening an account
+- **Protects your liability shield** — commingling personal and business funds without a formal agreement makes it easier for creditors to "pierce the corporate veil" and reach your personal assets
+
+### Key Clauses for Solo Founders
+
+Every single-member Operating Agreement should address at least these five things:
+
+1. **Membership interest** — who owns what percentage (100% you, but state it explicitly)
+2. **Management structure** — member-managed vs. manager-managed; for solo founders, member-managed is standard
+3. **Distribution policy** — when and how profits are distributed to you
+4. **Succession / death provisions** — who takes over if you die or become incapacitated (see below)
+5. **Buy-sell mechanism** — what happens if you want to dissolve or transfer the interest
+
+### Death of a Solo LLC Member
+
+This is the most overlooked risk for single-person companies:
+
+- Without an Operating Agreement, an LLC may **dissolve by default** under state law when the sole member dies
+- The member's interest passes to their estate, but the estate executor may not have authority to manage or continue the business
+- **Solution**: include a "successor member" clause that explicitly names who takes over management and membership interest upon your death — a spouse, family member, or trusted partner
+
+### US Estate Tax for Non-US Owners
+
+Non-US persons face a hidden risk on US-sited assets:
+
+- Any non-US individual owning US-sited assets worth more than **$60,000** is subject to US federal estate tax (up to **40%**) on those assets at death
+- A Wyoming or Delaware LLC is considered a US-sited asset
+- **Solution**: hold the US LLC through a foreign holding company (e.g., a Hong Kong Ltd or BVI company) so that the direct US asset is owned by a foreign entity, not a foreign individual — this removes the US estate tax exposure
+- Tradeoff: adds complexity and cost; worth it once your US entity holds significant value
+
+### Getting It Done
+
+- **Template route**: $50–200 online (Northwest Registered Agent, LegalZoom, Rocket Lawyer) — adequate for most solo founders
+- **Lawyer route**: $500–1,500 for a custom agreement — worth it if you have a co-founder, significant assets, or unusual distribution needs
+- **Timing**: do this BEFORE you open a bank account, take on clients, or hold any meaningful assets in the LLC
+
+---
+
+## Multi-Member LLC / Couples Co-founding
+
+Adding a second person changes the tax treatment entirely.
+
+### Default Tax Classification
+
+| Ownership | Default US Tax Treatment | Required Filing |
+|-----------|--------------------------|-----------------|
+| Single-member LLC | Disregarded entity (Schedule C) | No separate return |
+| Multi-member LLC | Partnership | Form 1065 + K-1 for each member |
+
+### Qualified Joint Venture (QJV) — US Residents Only
+
+Married couples in **community property states** (AZ, CA, ID, LA, NV, NM, TX, WA, WI) can elect to treat their multi-member LLC as two separate single-member LLCs:
+
+- Each spouse files their own Schedule C
+- Avoids the Form 1065 partnership return
+- **Only available for US tax residents** — non-US couples cannot use this election
+
+### Non-US Couples
+
+If neither partner is a US tax resident:
+
+- The multi-member LLC is always a **partnership** for US tax purposes — no exceptions
+- Each member receives a K-1 schedule showing their share of income
+- Each member may need a US **ITIN** (Individual Taxpayer Identification Number) to file
+- This adds compliance cost and complexity every year
+
+### Practical Recommendations for Non-US Couples
+
+Two cleaner alternatives to a joint multi-member LLC:
+
+1. **One person owns the LLC, pays the partner as a contractor** — simpler tax treatment; the LLC remains a single-member disregarded entity; the partner receives contractor payments and handles their own tax
+2. **Each person owns their own single-member LLC** — full separation of income, liability, and compliance; each entity is a disregarded entity; slightly higher setup cost but much cleaner long-term
+
+For most non-US co-founding couples, Option 1 is the pragmatic starting point.
+
+---
+
+## Company Closure / Winding Down
+
+Abandoning a company is not the same as closing it. Do it properly.
+
+### Dissolution Process by Jurisdiction
+
+| Jurisdiction | Process | Cost | Timeline |
+|---|---|---|---|
+| Wyoming LLC | File Articles of Dissolution + settle all debts + file final tax return | $0 state fee | 1–3 months |
+| Delaware LLC | File Certificate of Cancellation + pay final franchise tax | $200+ | 1–3 months |
+| Singapore Pte. Ltd. | Apply to ACRA for striking off (dormant >3 months) or voluntary winding up | SGD 30 (striking off) / SGD 3,000+ (winding up) | 3–6 months |
+| Estonia OÜ | Liquidation via e-Business Register; appoint liquidator; settle debts; distribute remaining assets (20% tax on distributions) | €200–500 | 3–12 months |
+| UK Ltd | Apply for striking off (DS01 form, if no debts/assets) or voluntary liquidation | £10 | 3–6 months |
+| Hong Kong Ltd | Apply to Companies Registry for deregistration (no debts/assets) or voluntary winding up | HKD 690 (deregistration) | 5–7 months |
+| Dubai Freezone | Cancel freezone license + deregister with authority + cancel visa | AED 2,000–5,000 | 2–4 months |
+
+### The Most Common Mistake: Abandonment
+
+Many founders simply stop using a company — stop filing, stop paying fees, stop responding to notices. This leads to:
+
+- **Penalties and late fees** accumulating (Delaware's franchise tax accrues annually even on dormant companies)
+- **Blacklisting** — some jurisdictions ban the director/owner from forming future companies
+- **Debt accumulation** — registered agent fees, government fees, and fines continue to pile up
+- **Banking complications** — unpaid taxes can trigger liens that surface years later
+
+### Pre-Closure Checklist
+
+Before filing dissolution paperwork:
+
+- File all outstanding tax returns (including final-year return)
+- Cancel all business bank accounts and transfer remaining funds out
+- Notify active clients, vendors, and counterparties
+- Cancel subscriptions and services billed to the company
+- Revoke any powers of attorney or third-party access
+- Obtain confirmation of dissolution in writing from the relevant authority and keep it permanently
