@@ -658,3 +658,50 @@ Chinese Founder (个人)
 | Need to deduct input VAT on procurement | Upgrade to 一般纳税人 |
 | 个体户 核定 rate revoked locally (查账 required) | Evaluate whether actual profit rate makes 个体户 still worthwhile vs. small company |
 | Revenue > RMB 5M | 一般纳税人 status becomes mandatory |
+
+---
+
+## Hong Kong Company Holding Overseas Assets (Stocks, Crypto)
+
+### HK Company Holding US Stocks
+
+A Hong Kong limited company can open brokerage accounts with Interactive Brokers, Firstrade, and most major US brokers. Required documents typically include: Certificate of Incorporation (CI), Business Registration Certificate (BR), board resolution authorizing the account, and a W-8BEN-E for treaty withholding purposes.
+
+| Income Type | HK Tax Treatment | US Withholding | Notes |
+|-------------|-----------------|----------------|-------|
+| Capital gains on US stocks | **Tax free** — HK has no capital gains tax | 0% | Gains on disposal are outside HK Profits Tax scope |
+| US stock dividends | Subject to HK Profits Tax on net dividend received | **30% standard** (reduced to **10%** with W-8BEN-E under HK-US treaty) | W-8BEN-E must be filed with the broker; HK company pays 10% WHT to IRS, then pays HK Profits Tax on the remaining 90% of the dividend |
+| Interest income | Subject to HK Profits Tax **if HK-sourced** | Varies | If interest accrues on a US account, IRD may treat it as offshore and exempt |
+
+**W-8BEN-E filing is critical**: without it, US brokers default to 30% withholding on dividends. With a valid W-8BEN-E claiming the HK-US income tax treaty, the rate drops to 10%.
+
+### HK Company Holding Crypto
+
+**Accounting treatment**: HKFRS (Hong Kong Financial Reporting Standards) currently has no dedicated crypto standard. In practice, most HK accountants treat crypto held by a company as either:
+- **Intangible assets** (cost model, HKAS 38) — carried at cost less impairment; gains only recognized on disposal
+- **Inventory** (HKAS 2) — if the business involves buying and selling crypto as its primary activity; measured at lower of cost or net realizable value
+
+**Tax treatment — IRD's business vs. investment test**: HK Profits Tax applies to "profits arising in or derived from HK from a trade, profession or business." The key question is whether the company's crypto activity constitutes a **business** or **investment holding**:
+
+| Factor | Points Toward "Business" (Taxable) | Points Toward "Investment" (Exempt) |
+|--------|------------------------------------|--------------------------------------|
+| Frequency | High frequency — daily or weekly trades | Infrequent — months or years between transactions |
+| Holding period | Short — days to weeks | Long — held for 12+ months |
+| Intention at acquisition | Profit on resale (established by communications) | Capital appreciation or strategic holding |
+| Volume | Large number of transactions | Few significant positions |
+| Organization | Dedicated trading infrastructure, staff | Passive holding in a wallet |
+
+**Practical position**: If your HK company buys crypto and holds it long-term without frequent trading, you can argue "investment holding" → capital gains → exempt from HK Profits Tax. If you day-trade, it is business income and taxable at 8.25%/16.5%.
+
+### Personal vs. Company Holding Comparison
+
+| Factor | Personal (直接个人持有) | Through HK Company |
+|--------|----------------------|--------------------|
+| US stock dividends | 30% US WHT (no US-China treaty for CN individuals; no HK-US treaty benefit for individuals) | **10% US WHT** (HK-US treaty via W-8BEN-E) |
+| Capital gains on stocks | Tax free in HK; **taxable in China** if you remain a mainland tax resident | Tax free in HK at company level only |
+| Crypto capital gains | Tax free in HK personally; taxable in China if tax resident | Potentially tax free in HK if "investment" holding; no China tax until distributed as dividend |
+| Asset protection | Personal liability — creditors can reach assets directly | Limited liability shield; company assets separate from personal assets |
+| Annual maintenance cost | $0 | HKD 5,000–10,000/year (secretary, BR, accounting) |
+| Best for | Small portfolios under USD 50K | Larger portfolios, active trading, or where US WHT saving on dividends justifies the cost |
+
+**Break-even on WHT saving**: The 20-percentage-point reduction in US dividend withholding (30% → 10%) saves USD 200 per year on a USD 1,000 dividend. If your annual US dividend income exceeds ~USD 2,500–5,000, the WHT saving alone can offset the company maintenance cost.

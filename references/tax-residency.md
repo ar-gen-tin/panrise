@@ -361,3 +361,53 @@ China currently has **no formal exit tax (离境税)**, but several existing tax
 3. File and pay any applicable IIT on pre-departure transfers; obtain tax payment certificates (完税证明) — required for repatriating proceeds through the banking system
 4. Keep all documentation for at least 7 years (China statute of limitations for tax matters: generally 5 years for underpayment; no limit for tax evasion — 10% underpayment threshold applies)
 5. For HK company share transfers to offshore structures: notify the HK Inland Revenue Department if the company has HK-source income, as the transfer may affect profits tax position
+
+---
+
+## Cross-Border Couples: China Mainland + Hong Kong Tax Planning
+
+### Filing Basics
+
+China has **no joint filing** — each spouse files their individual income tax (个人所得税) independently. There is no concept of a joint return under China's IIT Law.
+
+Hong Kong Salaries Tax, by contrast, allows married couples to elect **Joint Assessment (合并评税)** under section 10 of the Inland Revenue Ordinance. If Joint Assessment produces a lower combined tax bill than separate assessment, the couple can file jointly under one return. This is worth calculating every year, particularly when one spouse has low or zero income.
+
+### Common Scenarios
+
+| Spouse A (Mainland) | Spouse B (Hong Kong) | Tax Treatment |
+|---------------------|----------------------|---------------|
+| Salary from mainland employer | Salary from HK company | Each files in own jurisdiction; no cross-border offset or credit between the two filings |
+| Mainland 个体户 income | HK company dividends | 个体户 income: mainland tax at 核定 rate; dividends from HK company: 20% China IIT if remitted to mainland (10% under China-HK Arrangement if conditions met) |
+| No income (homemaker) | HK company owner | HK spouse files Profits Tax on company; homemaker spouse has no mainland filing obligation |
+
+### Transferring Money Between Spouses
+
+Transfers between spouses (夫妻之间) within mainland China are treated as **gifts between direct family members** and are exempt from individual income tax under IIT Law. However:
+
+- Amounts **>RMB 50,000** require a declaration at the remitting bank under SAFE foreign exchange reporting rules
+- Cross-border transfers from a HK bank account to a mainland spouse's account are treated as inbound remittances — select the "经常转移" category and retain proof of relationship (marriage certificate)
+- These transfers count against the **$50,000 USD annual individual forex quota** if the funds originate in foreign currency
+
+### Child Education Deduction (子女教育专项附加扣除)
+
+- Deduction: **RMB 2,000/month per child** (up from RMB 1,000 pre-2023)
+- The deduction can be claimed **entirely by either parent** or split 50/50 — but only one allocation method applies for the full tax year; it cannot be changed mid-year
+- If one parent has **no mainland income**, the other parent claims the full RMB 2,000/month
+- If both parents have mainland income but the HK-side spouse's income is larger, it is often more tax-efficient to assign the deduction to the parent with the higher marginal rate — the deduction reduces tax by (RMB 2,000 × marginal rate)
+- **Cannot be claimed** by a parent who has no mainland taxable income at all (e.g., a parent who is solely a HK Salaries Tax filer with no mainland-sourced income)
+
+### Hong Kong: Child Allowance vs. Education Expense
+
+The Inland Revenue Department provides a **Child Allowance** of **HKD 130,000 per child per year** under HK Salaries Tax — this is a personal allowance deducted from income, not a reimbursable education expense.
+
+Child school fees (tuition, activity fees) are **not deductible** as a company expense and the IRD will reject such claims. Routing family education costs through a HK company is not legitimate tax planning.
+
+### Planning Tip: Route Family Expenses Through the Lower-Rate Jurisdiction
+
+| Expense Type | Mainland Rate | HK Rate | Recommendation |
+|--------------|--------------|---------|----------------|
+| Child education (deduction) | Up to 45% tax saved at top marginal rate | N/A (fixed allowance) | Assign to higher-earning mainland spouse |
+| Mortgage interest | RMB 1,000/month住房贷款利息 deduction | HKD 100K/year home loan interest deduction | Claim in the jurisdiction where the property is located |
+| Medical / elderly parent care | RMB 3,000/month elderly care deduction | No direct equivalment | Claim on mainland return |
+
+The general principle: match the deduction to the jurisdiction where the family member generating the expense is primarily located, and assign it to whichever spouse faces the higher marginal rate in that jurisdiction.

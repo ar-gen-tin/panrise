@@ -437,3 +437,57 @@ Every major platform reports to tax authorities. There is no "under the radar" o
 | Airwallex payment links | ~2.6% + HKD | Good for one-time or low-volume invoices |
 | 2Checkout (Verifone) | 3.5% + $0.35 | Works with HK entities, global coverage |
 | PayPal Business | 3.49% + fee | Higher fees but easier approval for most business types |
+
+---
+
+## Mainland Bank Cards in Hong Kong — Limits & Workarounds
+
+### UnionPay ATM Withdrawals in HK
+
+- Maximum per transaction: **HKD 5,000** (hard limit enforced by HK ATMs)
+- Daily aggregate limit: equivalent of **RMB 10,000** — but the exact HKD cap varies by issuing bank (some set it lower, e.g., RMB 8,000)
+- Each withdrawal counts against your issuing bank's daily ATM limit, not just the UnionPay network limit
+- ATM fees: HK ATMs typically charge HKD 15–30 per withdrawal for mainland cards; your issuing bank may also charge a cross-border fee (~1%)
+
+### UnionPay POS Purchases in HK
+
+- HK POS purchases using a mainland UnionPay debit or credit card are **counted toward your annual individual foreign exchange quota (USD 50,000 equivalent)**
+- The transaction is converted at the daily reference rate published by the People's Bank of China; a ~1–1.5% FX markup is added by your issuing bank
+- This applies to both UnionPay debit cards and credit cards; credit card spending in HK also counts
+- Once you approach the USD 50,000 annual quota, the issuing bank will decline the card for FX conversion
+
+### WeChat Pay: Mainland vs HK Wallets
+
+- **Mainland WeChat Pay** and **WeChat Pay HK** are entirely separate wallets with separate balances, separate KYC, and separate currencies (RMB vs HKD)
+- Mainland WeChat Pay can pay at selected HK merchants that have enabled the cross-border QR code feature, but a FX conversion fee of approximately **1–3%** applies
+- The cross-border payment is routed through the mainland wallet; the amount consumed counts against the **USD 50,000 forex quota**
+- Not all HK merchants support mainland WeChat Pay — look for the mainland WeChat Pay logo specifically, not the general WeChat Pay logo
+
+### Alipay: Same Structure
+
+- Mainland Alipay and Alipay HK are separate apps with separate accounts
+- Mainland Alipay works at selected HK merchants (particularly in tourist and retail areas) via cross-border scan
+- FX conversion fee: ~1–2%; counts against USD 50,000 quota
+- Alipay HK requires a HK phone number and HK bank account to set up — it is a different product from mainland Alipay
+
+### Using HK Company Funds for Personal Expenses
+
+| Approach | Tax/Legal Status | Notes |
+|----------|-----------------|-------|
+| Pay yourself salary from HK company → deposit to HK personal account → use HK debit card | **Proper** — salary is a legitimate company expense; subject to HK Salaries Tax if work performed in HK | Requires proper payroll records and MPF contributions if you are an HK employee |
+| Pay yourself a declared director's loan for legitimate advances | **Acceptable with documentation** — must be recorded in company accounts; repayment schedule required | IRD may impute interest if no commercial terms documented |
+| Use company debit/credit card for personal purchases | **Improper** — treated as a director's loan or undeclared benefit in kind; must be repaid to the company or recognized as income | Accountants will flag this on the annual accounts; may trigger Profits Tax assessment and IRD scrutiny |
+
+### Practical Setup for CN Founders Living Between Shenzhen and HK
+
+The optimal daily banking stack for a founder commuting across the Shenzhen-HK border:
+
+| Tool | Purpose | Setup Requirement |
+|------|---------|-------------------|
+| **ZA Bank** (personal HKD account) | Primary HK spending account; works at all HK merchants and ATMs; debit card issued | Open via app with 港澳通行证 (Home Return Permit); no in-person visit needed |
+| **Salary transfer** from HK company | Fund your ZA Bank personal account with salary from your HK company each month | Set up regular bank transfer from company account to personal ZA Bank |
+| **Octopus card (八达通)** | MTR, buses, minibuses, convenience stores, fast food — covers ~95% of daily HK transit and small purchases | Available at any MTR station; top up with HK card or cash |
+| **Mainland bank card** (UnionPay) | Mainland expenses only — groceries, restaurants, Didi, utilities in Shenzhen | Keep a separate card for mainland use; avoid using it in HK to preserve your forex quota |
+| **Airwallex HK** (company account) | Receive international payments (Stripe, PayPal, wire transfers) into company; batch pay overseas contractors | Set up alongside ZA Bank for business operations |
+
+**Key principle**: keep company funds in the company account (Airwallex/HSBC), pay yourself a regular salary or director's fee into your personal ZA Bank account, and use the ZA Bank debit card for all HK personal spending. This maintains a clean separation between business and personal funds and avoids director loan complications.
