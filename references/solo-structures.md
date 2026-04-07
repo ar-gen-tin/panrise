@@ -1,0 +1,402 @@
+# One-Person Company Structures for Global Founders
+
+## Structure 1: US LLC (Wyoming) — Best for Privacy + Low Cost
+
+### Overview
+- **Best for**: Non-US founders selling digital products/services globally, digital nomads
+- **Tax**: 0% US federal tax if no US employees and owner spends <90 days/year in US (pass-through to personal)
+- **Setup cost**: ~$100 filing + $60/year annual report
+- **Timeline**: 1-3 business days
+- **Banking**: Mercury (default for non-residents), Wise Business, Relay
+
+### Key Advantages
+- Anonymous ownership (members not on public records)
+- Strongest single-member LLC charging order protection (creditors can't seize LLC assets)
+- Cheapest US LLC to maintain
+- No state income tax
+
+### Requirements
+- Registered agent in Wyoming (~$50-150/year)
+- Annual report filing ($60)
+- No residency requirement
+- EIN (Employer Identification Number) from IRS — free, apply online or by fax
+
+### When to Choose Wyoming
+- You DON'T plan to raise VC money
+- You want maximum privacy
+- Your customers are global (not primarily US-based)
+- You're a digital nomad or live outside the US
+
+---
+
+## Structure 2: US LLC (Delaware) — Best for Future VC Funding
+
+### Overview
+- **Best for**: Solo founders who may seek US investors later, SaaS companies targeting US market
+- **Tax**: Same as Wyoming (0% federal if properly structured)
+- **Setup cost**: ~$90 filing + $300/year franchise tax (minimum)
+- **Timeline**: 1-2 business days (expedited same-day available)
+- **Banking**: Mercury, Stripe Atlas (includes Delaware C-Corp option)
+
+### Key Advantages
+- Gold standard for US investors (SAFE/convertible notes standard)
+- Chancery Court expertise in business law
+- Stripe Atlas pipeline (incorporation + EIN + bank account in one flow)
+
+### When to Choose Delaware
+- You plan to raise money from US VCs eventually
+- Your primary market is the US
+- You want the Stripe Atlas all-in-one setup
+
+### Stripe Atlas Pipeline
+1. Pay $500 to Stripe Atlas
+2. Get Delaware C-Corp (or LLC) incorporated
+3. EIN procured automatically
+4. Mercury bank account opened
+5. Stripe payments activated
+6. Total time: ~1-2 weeks
+
+---
+
+## Structure 3: Singapore Pte. Ltd. — Best for Asia-Pacific
+
+### Overview
+- **Best for**: Founders targeting Asia-Pacific, those wanting a prestigious jurisdiction
+- **Tax**: 17% headline (effective ~8.5% on first SGD 200K with startup exemption), 0% capital gains
+- **Setup cost**: SGD 300-800 registration + SGD 2,000-4,000/year for nominee director + secretary
+- **Timeline**: 1-2 business days
+- **Banking**: DBS, OCBC (account opening can take 2-4 weeks)
+
+### Key Advantages
+- No capital gains tax
+- No withholding tax on dividends
+- 80+ DTAs (great for avoiding double taxation)
+- Strong IP protection
+- Prestigious business address for Asian clients
+
+### Requirements
+- At least 1 Singapore-resident director (can hire nominee ~SGD 2,000/year)
+- Company secretary (mandatory, ~SGD 300/year)
+- Registered office in Singapore
+- Annual filing + audit (simplified for small companies)
+
+### When to Choose Singapore
+- Primary customers are in Asia
+- Revenue > $50K/year (to justify ongoing costs)
+- You want a reputable Asian base
+- You plan to physically be in Asia
+
+---
+
+## Structure 4: Estonia OÜ (e-Residency) — Best for EU Access
+
+### Overview
+- **Best for**: Non-EU founders who need EU presence, remote-first businesses
+- **Tax**: 0% on retained profits (only taxed when distributed as dividends at 20%)
+- **Setup cost**: €265 government fee + ~€500 service provider setup
+- **Timeline**: 2-4 weeks (including e-Residency card)
+- **Banking**: Wise Business, Swedbank, LHV (traditional banks increasingly difficult)
+
+### Key Advantages
+- 0% tax on retained/reinvested profits (unique in EU)
+- Fully remote management — never need to visit Estonia
+- EU base for invoicing EU clients
+- Digital-first government (all compliance done online)
+- e-Residency card grants digital identity, not physical residency or tax residency
+
+### Requirements
+- e-Residency application (€100-120, processing ~3-6 weeks)
+- Local contact person if no board member in Estonia (~€100-200/year)
+- Annual report filing
+- Estonian business address
+
+### When to Choose Estonia
+- You need an EU legal entity but don't live in EU
+- You reinvest most profits (0% tax benefit)
+- You prefer fully remote administration
+- Your customers are primarily in EU
+
+### Important: Estonia ≠ Tax Residency
+e-Residency does NOT make you an Estonian tax resident. You're still taxed where YOU personally reside. The company pays Estonian tax only on distributions.
+
+---
+
+## Structure 5: UK Ltd — Best for English-Speaking Credibility
+
+### Overview
+- **Best for**: Consultants, agencies, B2B services targeting UK/EU/global
+- **Tax**: 19% on first £50K, 25% above £250K
+- **Setup cost**: £12 registration + £50-200/year registered address
+- **Timeline**: Same day (online)
+- **Banking**: Wise Business, Revolut Business (high street banks very difficult for non-residents)
+
+### Key Advantages
+- Cheapest and fastest incorporation globally (£12, same day)
+- High credibility in English-speaking markets
+- No residency requirement for directors
+- Simple annual compliance (confirmation statement + accounts)
+
+### When to Choose UK
+- Clients are primarily UK-based or English-speaking
+- You want the cheapest possible setup
+- B2B consulting or professional services
+
+---
+
+## Structure 6: Dubai Freezone — Best for Zero Personal Tax
+
+### Overview
+- **Best for**: Founders seeking 0% personal income tax + residency visa
+- **Tax**: 9% corporate (on income >AED 375K), 0% personal income tax
+- **Setup cost**: AED 5,000-15,000/year (license + visa + virtual office)
+- **Timeline**: 3-10 days
+- **Banking**: Emirates NBD, Mashreq, Wise (account opening improving)
+
+### Key Advantages
+- 0% personal income tax
+- Residency visa included (can be used as tax residency base)
+- 100% foreign ownership
+- Fast setup
+- Growing fintech/startup ecosystem
+
+### Requirements
+- Choose a freezone (popular: DMCC, IFZA, Meydan)
+- Freezone license (trade or freelance)
+- Emirates ID + medical fitness
+- Health insurance
+
+### When to Choose Dubai
+- You want 0% personal tax AND a physical base
+- You're willing to live in/visit UAE regularly (to establish tax residency)
+- Your income is >$100K/year (to justify costs)
+- You want a residency visa
+
+---
+
+## Structure 7: Hong Kong Ltd — Best Bridge for Chinese Founders Going Global
+
+### Overview
+- **Best for**: 中国大陆创始人出海的首选跳板；亚太区域业务
+- **Tax**: 8.25% on first HKD 2M (~$256K), 16.5% above; offshore income 0% (if properly structured)
+- **Setup cost**: HKD 3,000-5,000 (~$400-650)
+- **Timeline**: 1-2 weeks
+- **Banking**: HSBC, Hang Seng, ZA Bank (virtual), Airwallex HK
+
+### Why Hong Kong is THE Choice for China Mainland Founders
+1. **No forex controls**: Unlike mainland China (SAFE/外汇管制), HK has FREE capital movement
+2. **Receive USD/EUR/GBP freely**: No $50K/year individual forex limit like mainland
+3. **Stripe/PayPal available**: International payment processors work in HK (blocked/limited in mainland)
+4. **Offshore income exemption**: Income earned OUTSIDE Hong Kong can be 0% taxed
+5. **No capital gains tax, no VAT/GST, no withholding tax on dividends**
+6. **Familiar culture**: Cantonese/Mandarin, similar business practices, easy travel from mainland
+7. **Gateway to global banking**: HK bank accounts accepted worldwide
+
+### Key Structure for Chinese Solo Founders
+```
+中国大陆创始人 (个人)
+  └── Hong Kong Limited Company (有限公司)
+        ├── Receives global payments via Stripe HK / PayPal / Airwallex
+        ├── Offshore profits taxed at 0% (if business conducted outside HK)
+        └── Pays founder via salary or dividends (plan carefully for mainland CIT)
+```
+
+### Offshore Profits Claim (离岸免税)
+- If your business is conducted OUTSIDE Hong Kong (e.g., SaaS sold to global customers, no HK office, no HK employees), you can claim offshore profits exemption
+- **Requirements**: Must demonstrate profits are NOT sourced in HK
+  - Contracts signed outside HK
+  - Services delivered outside HK
+  - No HK-based employees doing core work
+  - Operations and decisions made outside HK
+- **FSIE rules (2023+)**: Passive income (dividends, IP income) now requires substance test
+- **Active business income**: Still eligible for offshore exemption if genuinely conducted outside HK
+
+### Getting Money Back to Mainland
+- **Salary from HK company**: Subject to HK salaries tax (if you perform work in HK)
+- **Dividends**: No HK withholding tax; but China individual income tax applies (20% on dividends from foreign company)
+- **Service fees**: HK company pays mainland个体户/公司 for services (need valid contract, invoice)
+- **Personal remittance**: Via HK bank to mainland bank (within annual forex limits if personal)
+- **Best practice**: Keep most funds in HK account for business reinvestment; remit to mainland only what you need for living expenses
+
+### Setup Steps
+1. Choose company name (Chinese + English)
+2. Appoint at least 1 director (can be you, any nationality)
+3. Appoint company secretary (HK resident required, hire a service ~HKD 1,000/year)
+4. Register with Companies Registry (CR)
+5. Open HK bank account (hardest part — consider virtual banks like ZA Bank or Airwallex)
+6. Apply for Business Registration Certificate (BR)
+
+### Cost Comparison with Singapore
+| Factor | Hong Kong | Singapore |
+|--------|-----------|-----------|
+| Setup cost | HKD 3-5K ($400-650) | SGD 800 ($600) |
+| Annual compliance | HKD 5-10K ($650-1,300) | SGD 3-5K ($2,200-3,700) |
+| Tax rate | 8.25-16.5% (offshore: 0%) | 17% (effective ~8.5%) |
+| Offshore exemption | Yes (strong tradition) | Partial (more limited) |
+| Forex freedom | Complete | Complete |
+| Mainland proximity | 1 hour from Shenzhen | 4-5 hours flight |
+| Banking for Chinese | Easier (cultural affinity) | Moderate |
+| **Best for** | **Chinese founders, cost-sensitive** | **International credibility, APAC hub** |
+
+### When to Choose Hong Kong
+- You're a Chinese mainland founder (大陆创始人首选)
+- You need to escape China's forex controls for global business
+- Your income can genuinely be classified as offshore
+- You want the cheapest Asia-Pacific entity
+- You plan to keep most money outside mainland for reinvestment
+
+---
+
+## Structure 8: Taiwan OBU + Company — For Taiwanese Founders
+
+### Overview
+- **Best for**: 台湾创始人的海外业务
+- **Corp tax**: 20% (Taiwan domestic); OBU income can be tax-exempt
+- **Setup cost**: NT$50,000-100,000 (~$1,500-3,000) for domestic + offshore account
+- **Timeline**: 2-4 weeks
+
+### OBU (Offshore Banking Unit) Advantage
+- Taiwanese banks offer OBU accounts for companies with offshore operations
+- Interest and certain foreign-sourced income in OBU can be tax-exempt
+- Commonly used by Taiwanese exporters and digital businesses
+
+### Alternative: Taiwan Founder + HK/SG Company
+Many Taiwanese solo founders use:
+```
+台灣創始人
+  └── Hong Kong Ltd (or Singapore Pte. Ltd.)
+        └── Receives global payments
+        └── Lower tax than Taiwan's 20%
+```
+
+### When to Choose
+- Taiwanese founder with significant international revenue
+- Want to separate domestic Taiwan business from global operations
+- HK company often preferred (cultural/language similarity, cheaper than SG)
+
+---
+
+## China Mainland Founders: Special Considerations (大陆创始人必读)
+
+### The Core Challenge
+China's capital controls (外汇管制) make it hard to:
+- Receive USD/EUR directly into personal accounts (annual $50K limit)
+- Use international payment processors (Stripe, PayPal limitations)
+- Move money freely for business purposes
+
+### Recommended Path: Hong Kong Company
+1. **Set up HK Ltd** (see Structure 7 above)
+2. **Open HK bank account** (HSBC, ZA Bank, or Airwallex)
+3. **Connect Stripe HK** for global payments
+4. **Claim offshore profits exemption** if business conducted outside HK
+5. **Remit to mainland** only what you need for living expenses
+
+### Alternative: US LLC (for tech-savvy founders)
+- Wyoming LLC + Mercury bank account
+- Works well if most customers are in US
+- Harder to open bank account from mainland (may need to visit US or use a service)
+- No forex issues on the US side
+- China side: declaring foreign income and paying individual income tax (综合所得) is your responsibility
+
+### ODI (境外投资备案) — Do You Need It?
+- **Technically**: Chinese individuals investing overseas should go through ODI filing
+- **In practice**: Most solo founders with small businesses (<$1M) operate in a gray area
+- **Risk**: Enforcement has been lax for small amounts, but rules could tighten
+- **Conservative approach**: Set up HK company in your personal name (not as a Chinese company subsidiary), use personal funds
+- **Consult a Chinese cross-border tax advisor** if revenue >$100K
+
+### WeChat Pay / Alipay International
+- If you sell to Chinese customers from an overseas entity, you can connect to WeChat Pay/Alipay International
+- Requires HK or SG entity (mainland personal account won't work for business)
+- Settlement in HKD or USD
+
+### Cross-Border E-Commerce (跨境电商)
+- If selling physical goods from China to overseas: consider HK company + 跨境电商综试区 policies
+- If selling digital products/SaaS from China: HK company as the global-facing entity
+- Keep mainland entity (个体户 or 小规模纳税人) for domestic operations if needed
+
+---
+
+## Decision Tree: Which Structure for You?
+
+```
+START → What is your nationality/passport?
+  │
+  ├── Chinese Mainland (中国大陆)
+  │   └── Revenue from global customers?
+  │       ├── YES → Hong Kong Ltd (escape forex controls, Stripe HK, offshore exemption)
+  │       └── NO (domestic only) → 个体户 or 小规模纳税人
+  │
+  ├── Taiwanese (台灣)
+  │   └── Significant international revenue?
+  │       ├── YES → HK Ltd or SG Pte. Ltd.
+  │       └── NO → Taiwan domestic company
+  │
+  ├── US Citizen
+  │   └── Wyoming LLC (avoid CFC traps of foreign corps)
+  │
+  ├── Other nationality → Where are your customers?
+  │   ├── Mostly US/Global
+  │   │   └── Will you raise VC?
+  │   │       ├── YES → Delaware C-Corp (Stripe Atlas)
+  │   │       └── NO → Wyoming LLC
+  │   │
+  │   ├── Mostly EU
+  │   │   └── Do you reinvest most profits?
+  │   │       ├── YES → Estonia OÜ (0% retained)
+  │   │       └── NO → UK Ltd (cheapest)
+  │   │
+  │   ├── Mostly Asia-Pacific
+  │   │   └── Revenue > $50K?
+  │   │       ├── YES → Singapore Pte. Ltd. or Hong Kong Ltd
+  │   │       └── NO → Wyoming LLC + Wise
+  │   │
+  │   └── Want 0% personal tax?
+  │       └── Willing to relocate?
+  │           ├── YES → Dubai Freezone
+  │           └── NO → Wyoming LLC + territorial tax residency
+```
+
+```
+START → Where do your customers pay from?
+  │
+  ├── Mostly US/Global
+  │   └── Will you raise VC money?
+  │       ├── YES → Delaware LLC/C-Corp (Stripe Atlas)
+  │       └── NO → Wyoming LLC (cheapest, most private)
+  │
+  ├── Mostly EU
+  │   └── Do you reinvest most profits?
+  │       ├── YES → Estonia OÜ (0% on retained)
+  │       └── NO → UK Ltd (cheapest, fastest)
+  │
+  ├── Mostly Asia-Pacific
+  │   └── Revenue > $50K/year?
+  │       ├── YES → Singapore Pte. Ltd.
+  │       └── NO → Wyoming LLC + Wise (lower overhead)
+  │
+  └── Want 0% personal tax?
+      └── Willing to live in UAE?
+          ├── YES → Dubai Freezone
+          └── NO → Wyoming LLC + territorial tax residency (Panama/Georgia)
+```
+
+## When NOT to Incorporate
+
+Don't rush to set up a company if:
+- Revenue < $5,000/year — use personal invoicing or sole proprietorship
+- You're just testing an idea — incorporate after product-market fit
+- You only sell in your home country — local sole proprietorship is simpler
+- You're a US citizen — a US LLC may be all you need regardless of where you live
+
+## Annual Cost Comparison
+
+| Structure | Setup | Annual Maintenance | Accounting | Total Year 1 |
+|-----------|-------|-------------------|------------|---------------|
+| Wyoming LLC | $160 | $60 | $500-1,500 | $720-1,720 |
+| Delaware LLC | $390 | $300 | $500-1,500 | $1,190-2,190 |
+| Stripe Atlas (DE C-Corp) | $500 | $300 | $1,000-3,000 | $1,800-3,800 |
+| **Hong Kong Ltd** | **$500** | **$800-1,500** | **$800-1,500** | **$2,100-3,500** |
+| Singapore Pte. Ltd. | $800 | $3,000-5,000 | $1,000-2,000 | $4,800-7,800 |
+| Estonia OÜ | $600 | $300-500 | $600-1,200 | $1,500-2,300 |
+| UK Ltd | $60 | $200 | $500-1,500 | $760-1,760 |
+| Dubai Freezone | $3,000 | $3,000-5,000 | $1,000-2,000 | $7,000-10,000 |
