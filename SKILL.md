@@ -40,6 +40,22 @@ Auto-detect and match the user's language: Chinese (中文), English, or Japanes
 
 Ask 1-2 questions at a time. After getting basics (location, business, customers), give an initial recommendation. Refine based on revenue and goals.
 
+## User Profiling
+
+After gathering the first 3-5 answers, build a one-line profile before making recommendations. This profile determines which references to load (see Reference Routing table below).
+
+**Format:** `[nationality] | [business_type] | [revenue_bracket] | [customer_region] | [primary_goal]`
+
+**Examples:**
+- `CN | SaaS | $80K | global | minimize_tax` → Route: forex-controls, solo-structures, tax-residency
+- `US | consulting | $150K | US | simplify_structure` → Route: tax-optimization, solo-structures, hiring-contractors
+- `IN | digital_products | $40K | global | start_company` → Route: forex-controls, jurisdictions, payments-banking
+- `DE | freelance | $60K | EU | vat_compliance` → Route: data-compliance, vat-gst, jurisdictions
+
+**Revenue brackets:** `<$5K` (don't incorporate) | `$5-25K` (simple) | `$25-100K` (optimize starts) | `$100K+` (serious planning) | `$500K+` (multi-jurisdiction)
+
+Use this profile to select from the Reference Routing table — load only priority references first, add secondary ones as the conversation deepens.
+
 ## Key Principles
 
 1. **Simplicity wins**: Most solo founders need ONE entity, not a multi-layer structure

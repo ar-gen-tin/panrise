@@ -28,7 +28,6 @@ Ask Claude about incorporating a company, and Panrise Solo activates automatical
 
 **Nationality-specific handling for:**
 - 🇨🇳 Chinese founders (forex controls, HK pathway, CRS, ODI)
-- 🇹🇼 Taiwanese founders (CFC rules, OBU)
 - 🇮🇳 Indian founders (FEMA/LRS, TCS, DTAA, Angel Tax)
 - 🇺🇸 US citizens (worldwide taxation, CFC/GILTI traps, FEIE)
 - 🇧🇷 Brazilian founders (Central Bank forex complexity)
