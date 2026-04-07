@@ -223,3 +223,141 @@ Marriage creates new "center of vital interests" facts in the destination countr
 | Founder's vesting schedule | Unvested shares at time of divorce may still be counted in the marital estate by courts; get a QDRO or equivalent order to segregate |
 
 **Mitigation:** A prenuptial or postnuptial agreement specifying separate property treatment for business interests is the cleanest protection in community property jurisdictions. Consult a family law attorney AND a tax attorney — the tax consequences of property transfers in divorce are separate from the ownership question.
+
+## Shenzhen-Hong Kong Cross-Border Work — PE and Tax Analysis
+
+**Scenario:** Shenzhen resident (mainland hukou) who operates or owns a Hong Kong company, commuting regularly into HK via Lo Wu (罗湖) or Futian (福田) checkpoint.
+
+### HK Salaries Tax Trigger by Days in HK
+
+| Days in HK per Year | HK Salaries Tax Treatment | Notes |
+|---------------------|--------------------------|-------|
+| <60 days | Generally exempt | De minimis exemption under s.8(1A)(c) Inland Revenue Ordinance; tracked per employer |
+| 60–183 days | Pro-rata: HK tax on (HK days / total days) × annual employment income | Must file BIR60; declare worldwide employment income and claim time-apportionment |
+| >183 days | Likely HK tax resident; full HK salaries tax on employment income | Progressive rates up to 17%, or flat 15% on total income — whichever is lower |
+
+HK salaries tax is assessed on a source basis: only income attributable to services physically performed in HK is taxable. The time-apportionment method (HK days ÷ total working days) is the standard approach accepted by the Inland Revenue Department (税务局).
+
+### China-HK Double Tax Arrangement (安排，非正式条约)
+
+The Mainland China–Hong Kong Arrangement for the Avoidance of Double Taxation (内地和香港特别行政区关于对所得避免双重征税的安排) is not a formal DTA but operates with similar effect:
+
+- HK salaries tax paid can be credited against mainland Individual Income Tax (IIT, 个人所得税) liability on the same income
+- Credit is limited to the mainland IIT that would have been payable on that income
+- Requires: HK tax payment certificate (缴税证明) + filing amendment with the local tax bureau (税务局)
+
+### Permanent Establishment (PE, 常设机构) Risk for the HK Company
+
+| Activity | PE Risk Level | Explanation |
+|----------|--------------|-------------|
+| Working daily from Shenzhen home/office for the HK company | HIGH | Fixed place of business (固定营业场所) test may be met; China tax authorities can assert HK company has a PE in China |
+| Attending occasional meetings in Shenzhen | LOW | Preparatory/auxiliary activities generally excluded from PE definition |
+| Signing contracts in mainland China on behalf of HK company | HIGH | Dependent agent (代理型常设机构) PE; single act can be sufficient |
+| Hiring mainland employees who habitually conclude contracts | HIGH | Triggers dependent agent PE regardless of founder's location |
+
+If a PE is found: the HK company owes Enterprise Income Tax (企业所得税, EIT) in China at 25% on profits attributable to the PE, plus potential penalties and interest for prior years.
+
+### Safe Operating Pattern
+
+1. Limit HK visits to formal board meetings, client meetings, and contract signings — keep HK-side activities substantive
+2. Do NOT sign contracts on behalf of the HK company while physically in mainland China
+3. Use personal capacity (个人名义) for any mainland activities, not the HK company capacity
+4. Keep the HK company's "mind and management" visibly in HK: hold board meetings in HK, keep bank accounts and registered address active
+
+### Practical Tracking
+
+- **Border crossing records (出入境记录):** Request from the Entry-Exit Administration (出入境管理局) via the 粤省事 app or in person; updated within 24 hours; keep rolling 12-month records
+- **Co-working receipts:** Retain VAT invoices (增值税发票) for HK co-working spaces as evidence of HK work location
+- **Work diary:** Brief daily log noting city of work, meetings held, and nature of tasks — admissible evidence in tax disputes
+
+---
+
+## Hong Kong Talent Schemes (优才/高才通) + One-Person Company Tax Impact
+
+HK operates two primary talent immigration pathways relevant to mainland founders:
+
+| Scheme | Full Name | Key Threshold |
+|--------|-----------|---------------|
+| 优才 | Quality Migrant Admission Scheme (QMAS) | Points-based; no income floor; quota-capped |
+| 高才通 | Top Talent Pass Scheme (TTPS) | HKD 2.5M annual income OR Top 100 university graduate with 3+ years' experience |
+
+### Becoming HK Tax Resident
+
+- Requirement: ≥183 days physically in HK per year (calendar year basis)
+- HK does not have a formal "tax domicile" concept for individuals; physical presence is the primary test
+- Once HK tax resident, worldwide employment income from HK employment is taxable; foreign-sourced passive income is generally not
+
+### Impact on Mainland Tax Residency
+
+| Condition | Mainland IIT Consequence |
+|-----------|------------------------|
+| Away from mainland ≥183 days AND no mainland "domicile" (住所) | Can argue cessation of mainland tax residency under IIT Law Art. 1 |
+| Still holding mainland hukou (户口) + owns mainland property | Tax authority may assert "domicile" (domicile = 习惯性居所 or 户籍所在地) → remains mainland tax resident regardless of days |
+| Cancel social security (社保) + sell/rent out property + formal filing | Strongest basis for severing mainland tax residency |
+
+**Critical distinction:** Under China IIT Law, "domicile" (住所) is defined as habitual residence based on household registration, family, or economic ties — NOT merely physical presence. HK days alone are insufficient if mainland ties remain strong.
+
+### Full Exit from Mainland Tax Resident Status — Checklist
+
+1. Cancel or suspend mainland social security contributions (社保停缴)
+2. Sell or formally lease out mainland property (rental income still taxable in China as China-source income)
+3. File departure notification with local tax authority (tax clearance 税务注销 is not legally required for individuals but is advisable)
+4. Obtain HK Tax Residency Certificate (TRC) once qualified — this is the key document for DTA/arrangement credit claims
+
+### One-Person Company Tax Planning in HK
+
+| Structure | Tax Treatment | Effective Rate on HKD 2M Profit |
+|-----------|--------------|--------------------------------|
+| Sole proprietor (独资) | Profits Tax (利得税) at 15% flat (individual rate) | 15% |
+| HK Ltd company + salary to self | Company: 8.25% on first HKD 2M, 16.5% above; Salary: Salaries Tax progressive to 17% | ~8–12% blended (see below) |
+
+**Optimal salary/dividend split for a HK Ltd:**
+
+- Personal allowance (基本免税额): HKD 132,000/year → salary up to this amount is tax-free under Salaries Tax
+- Set annual salary at HKD 132,000 → HKD 0 Salaries Tax
+- Retain remaining profit in company → taxed at 8.25% (first HKD 2M under two-tier regime)
+- When distributing as dividend: HK has NO dividend withholding tax at company level; no personal tax on dividends received from HK company
+- Effective rate on HKD 2M profit with this structure: ~8.25% on (HKD 2M − HKD 132,000) = approx. **7.8%**
+
+**TTPS/QMAS visa renewal:** Must demonstrate "contribution to Hong Kong" — having an active HK Ltd with filed accounts and Profits Tax returns is accepted evidence. Keep Business Registration (商业登记) current and file annual returns with the Companies Registry (公司注册处).
+
+---
+
+## Pre-Immigration Asset Planning for China Mainland Founders
+
+China currently has **no formal exit tax (离境税)**, but several existing taxes are triggered by pre-departure asset disposals. The planning window is 12–18 months before becoming tax resident in the destination country.
+
+### China-Side Tax Exposure on Common Assets
+
+| Asset Type | Applicable Tax | Rate | Exemptions / Notes |
+|------------|---------------|------|-------------------|
+| HK company shares (transfer before leaving) | Capital gains under IIT (财产转让所得) | 20% on net gain | If transferring to non-resident, withholding obligation on buyer; related-party transfers scrutinized under special tax adjustment rules (特别纳税调整) |
+| Mainland residential property | IIT on property transfer (财产转让所得) | 20% on net gain, OR ~1–2% deemed on gross proceeds | Exempt if: owned ≥5 years AND only residence (唯一住房) — verify with local tax bureau as local rules vary |
+| HK company retained earnings (dividend distribution) | Dividend withholding tax (股息红利所得) | 20% (reduced to 10% under China-HK Arrangement if HK company is beneficial owner) | Distribute before emigrating to pay 10–20% now; leaving profits in company post-emigration means future distribution taxed in destination country |
+| Mainland company equity (non-listed) | Capital gains IIT (财产转让所得) | 20% on gain | Equity transfer must be reported to tax authority; deemed transfer price rules apply if below fair value |
+
+### Pre-Immigration Optimization Window
+
+| Action | Timing | Rationale |
+|--------|--------|-----------|
+| Transfer HK company shares to offshore trust or holding company | 12–18 months before becoming Canadian/Australian tax resident | Avoids Canada/Australia treating shares as assets acquired at pre-arrival cost basis that later appreciate |
+| Dispose of mainland property | While still mainland tax resident | May qualify for 唯一住房 exemption; once non-resident, exemption still technically available but enforcement easier |
+| Distribute retained earnings from HK company | Before departure date | Pay 10–20% dividend tax now; avoids distribution being taxed at destination country marginal rate (up to 33% in Canada, 47% in Australia) |
+| Get professional valuations on all significant assets | On or immediately before immigration date | This FMV becomes cost basis in Canada/Australia; undocumented basis = risk of tax on pre-immigration gains |
+
+### Canada and Australia Treatment of Pre-Immigration Assets
+
+| Country | Rule | Practical Effect |
+|---------|------|-----------------|
+| Canada | "Deemed acquisition" at FMV on the date you become a Canadian tax resident (ITA s.128.1) | Pre-arrival gains not taxed by Canada; gains after arrival date are taxable at 50% inclusion rate (capital gains) |
+| Australia | CGT Event I2: foreign assets are treated as acquired at FMV on the day you first become an Australian tax resident | Same principle — entry-day FMV as cost basis; post-arrival gains subject to Australian CGT at marginal rate (up to 47%) with 50% discount if asset held >12 months after arrival |
+
+**CRITICAL:** Get a formal, dated valuation report (估值报告) from a qualified valuer for all significant assets — HK company shares, mainland property, investment portfolios — on or just before your immigration date. Without this, both the CRA (Canada Revenue Agency) and the ATO (Australian Taxation Office) can dispute your claimed cost basis, potentially taxing gains that accrued before you arrived.
+
+### Mainland Tax Clearance — Practical Steps
+
+1. Engage a cross-border tax advisor (跨境税务顾问) with China IIT + destination country expertise at least 12 months before the planned move
+2. Obtain asset valuations (资产评估报告) from a licensed Chinese valuer (具有资质的评估机构) for all equity interests
+3. File and pay any applicable IIT on pre-departure transfers; obtain tax payment certificates (完税证明) — required for repatriating proceeds through the banking system
+4. Keep all documentation for at least 7 years (China statute of limitations for tax matters: generally 5 years for underpayment; no limit for tax evasion — 10% underpayment threshold applies)
+5. For HK company share transfers to offshore structures: notify the HK Inland Revenue Department if the company has HK-source income, as the transfer may affect profits tax position

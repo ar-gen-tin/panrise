@@ -77,3 +77,117 @@ Simple strategies that actually work:
 - Wise rate alerts: set a target rate and convert automatically when hit
 - For larger amounts ($50K+): consider forward contracts (available via Wise Business, OFX, or banks)
 - Don't try to "time" the market — dollar-cost averaging is the simplest strategy
+
+---
+
+## 6. Hong Kong SCR (Significant Controllers Register) Compliance
+
+Every Hong Kong limited company must maintain a Significant Controllers Register (重要控制人登記冊) since March 2018.
+
+**Who Qualifies as a Significant Controller:**
+
+| Criteria | Threshold |
+|---|---|
+| Shareholding | ≥25% shares |
+| Voting rights | ≥25% voting rights |
+| Right to appoint/remove majority of board | Any amount |
+| Exercises significant influence or control | Subjective assessment |
+
+**Required Information to Record:**
+
+| Field | Details |
+|---|---|
+| Full name | Legal name as on ID/passport |
+| ID/passport number | Government-issued identification |
+| Residential address | Current home address |
+| Date of becoming a significant controller | Exact date |
+| Date of ceasing (if applicable) | When no longer qualifies |
+
+**Key Operational Notes:**
+
+- Where to keep: at the company's registered office address
+- Access: must be available for inspection by law enforcement on demand
+- NOT filed with government — kept internally by the company
+- Update timeline: within 7 days of any change (share transfer, new director, ownership restructure, etc.)
+- Penalty: HKD 25,000 fine for failure to maintain or for providing false information
+
+**Practical for Solo Founders:** You are the sole significant controller. Fill out once at incorporation; update only if ownership structure changes.
+
+---
+
+## 7. Hong Kong Annual KYC Update — Bank Requirements
+
+Banks typically trigger KYC (Know Your Customer) reviews annually, usually via email or letter notification.
+
+**Required Documents:**
+
+| Document | Details |
+|---|---|
+| Company Registration Certificate (CI) | Latest version (Certificate of Incorporation) |
+| Business Registration Certificate (BR) | Must be valid — renewed annually, HKD 250/year |
+| Annual Return (NAR1) | Filed with Companies Registry within 42 days of anniversary |
+| Director/Shareholder passport | Valid, unexpired |
+| Proof of address | Within 3 months (utility bill, bank statement) |
+| Business description update | Any changes in business activities since last review |
+| Source of funds declaration | May require bank statements from other accounts |
+
+**Consequences of Non-Completion:**
+
+- Bank may freeze account or restrict transactions
+- In severe cases: account closure
+
+**Tips:**
+
+- Set a calendar reminder 1 month before incorporation anniversary
+- Prepare all documents in advance; most are already part of routine compliance
+- Respond to bank requests within 14 days to avoid escalation
+
+**Bank-Specific Notes:**
+
+| Bank | KYC Process |
+|---|---|
+| ZA Bank (眾安銀行) | Mostly automated via app — document upload + selfie verification |
+| HSBC / Hang Seng | May require in-person visit or video call; more documentation-heavy |
+
+---
+
+## 8. China Mainland Social Security & Housing Fund for Digital Nomads (社保公积金断缴影响)
+
+Social security (社保) in mainland China has 5 components. Impact varies by component when payments lapse while abroad.
+
+**Social Security Components and Gap Impact:**
+
+| Component | Impact of Gap | Can Resume? | Notes |
+|---|---|---|---|
+| Pension (养老保险) | Cumulative years still count; gap years reduce total contribution | Yes, anytime | Need 15 years total for retirement benefits |
+| Medical (医疗保险) | Coverage stops immediately; 3–6 month waiting period to reactivate (varies by city) | Yes, but waiting period applies | Buy commercial insurance (e.g., SafetyWing) for gap period |
+| Unemployment (失业保险) | Not relevant for self-employed | N/A | Only applies to formally employed workers |
+| Work Injury (工伤保险) | Not relevant if not employed | N/A | Only applies to formally employed workers |
+| Maternity (生育保险) | Need continuous payment for 6–12 months before claiming | Yes | Plan well ahead if expecting |
+
+**Housing Fund (住房公积金):**
+
+- Voluntary for self-employed individuals
+- Balance stays in account during gap; no penalty for non-contribution
+- Withdrawal only permitted for: buying property, retirement, or permanently leaving the city
+
+**Flexible Employment Option (灵活就业人员):**
+
+Self-employed or freelancers can self-pay pension + medical insurance in their hukou city (户籍城市):
+
+| City Tier | Estimated Monthly Cost |
+|---|---|
+| Tier-1 (上海, 北京, 广州, 深圳) | RMB 2,000–3,000/month |
+| Tier-2 cities | RMB 1,500–2,000/month |
+
+**Impact on Hukou City Services:**
+
+| City | School Enrollment Policy |
+|---|---|
+| 上海 / 北京 | Strict — parent's local social security records often required for children's school enrollment |
+| 深圳 | More flexible — policy varies by district |
+| Other cities | Generally more lenient; verify locally |
+
+**Recommendation for Digital Nomads:**
+
+Maintain minimum social security contributions via flexible employment (灵活就业) if you plan to return to China long-term. Supplement with international health insurance (e.g., SafetyWing, Cigna Global) during the gap period to avoid medical coverage lapses.

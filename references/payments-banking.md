@@ -348,3 +348,92 @@ Every major platform reports to tax authorities. There is no "under the radar" o
 | Gumroad | IRS (1099-K for US), CRS for non-US | FATCA / CRS |
 
 **Bottom line**: Declare all platform income. The question is not whether authorities will know, but whether you've applied for the correct treaties and deductions to minimize the rate.
+
+---
+
+## Hong Kong Bank Account Comparison for Mainland Founders
+
+| Bank | Type | Account Opening | Monthly Fee | SWIFT Inbound | Stripe Compatible | Best For |
+|------|------|----------------|-------------|---------------|-------------------|----------|
+| ZA Bank | Virtual | Fully online app, HK ID or 回乡证 | HKD 0 | Yes (USD/HKD) | Yes | Starting out, low-cost |
+| Mox Bank (天星) | Virtual | Fully online | HKD 0 | No SWIFT inbound | No | Personal spending only |
+| Ant Bank (众安) | Virtual | Fully online | HKD 0 | Yes | Yes | Backup account |
+| Airwallex HK | Payment account | Online + video KYC | HKD 0 | Yes (60+ currencies) | Yes | High-frequency collections |
+| HSBC Business | Traditional | In-person appointment required | HKD 200/month (waivable) | Yes | Yes | Large transactions, trade finance |
+| Hang Seng Business | Traditional | In-person required | HKD 100-200/month | Yes | Yes | Alternative to HSBC |
+
+### ZA Bank — Specific Notes for Mainland Founders
+
+| Topic | Detail |
+|-------|--------|
+| ID accepted | Mainland residents can open with 港澳通行证 (Home Return Permit) |
+| First deposit | Via Wise HKD transfer or FPS from another HK account |
+| Limitations | No cheque book, no trade finance, no credit facility |
+| KYC renewal | Annual, mostly automated (document upload via app) |
+
+### Airwallex HK vs ZA Bank
+
+| Dimension | Airwallex HK | ZA Bank |
+|-----------|-------------|---------|
+| Currency support | 60+ currencies | HKD, USD, EUR (limited) |
+| Transaction limits | Higher limits | Lower limits |
+| Batch payments | Yes | No |
+| Stripe settlement | Yes | Yes |
+| HKD holding | Yes | Better suited |
+| Complexity | More features, steeper setup | Simpler, faster to start |
+
+**Recommendation**: Open BOTH — ZA Bank as primary Stripe settlement account, Airwallex for international collections.
+
+### HSBC Business — Opening Tips for Mainland Founders
+
+| Factor | Detail |
+|--------|--------|
+| Common rejection reasons | No HK local business presence, vague business description, no proof of revenue |
+| Success factors | Bring 6+ months of bank statements, client contracts, company financials, business plan |
+| Account opening service | Consider using a service (HKD 3,000–8,000) for higher success rate |
+| Alternative path | Open HSBC Personal first (easier approval), then upgrade to Business after 6 months |
+
+---
+
+## Stripe HK Registration — Troubleshooting
+
+### Required Documents
+
+- HK Business Registration (BR) — must be valid
+- Certificate of Incorporation (CI)
+- Director passport or HKID
+- Proof of address (director or company)
+- Business website (live and functional)
+
+### Common Rejection Reasons and Fixes
+
+| Rejection Reason | Fix |
+|-----------------|-----|
+| "Website not live" | Must have a working website with product/service description before applying |
+| "Business description unclear" | Write detailed description: what you sell, to whom, how payment works |
+| "Restricted business type" | Check Stripe's restricted list; crypto/gambling/adult content blocked |
+| "Director not verified" | Ensure passport photo matches, address document must be <3 months old |
+
+### Stripe HK vs Stripe US (Using HK Company)
+
+| Dimension | Stripe HK | Stripe US |
+|-----------|-----------|-----------|
+| Entity required | HK company (BR + CI) | US entity with EIN |
+| Settlement currency | HKD to HK bank | USD to US bank |
+| Transaction fee | 3.4% + HKD 2.35 per transaction | 2.9% + USD 0.30 per transaction |
+| HK company eligibility | Yes — direct signup | No — HK company cannot directly use Stripe US |
+| USD settlement path | Stripe HK → HKD → convert via Wise/Airwallex | N/A (requires US entity) |
+
+### After Rejection
+
+- Wait 30 days before reapplying
+- Fix all identified issues before resubmitting
+- Reapply with improved documentation and a clearer business description
+
+### Alternatives to Stripe HK
+
+| Option | Fees | Notes |
+|--------|------|-------|
+| Airwallex payment links | ~2.6% + HKD | Good for one-time or low-volume invoices |
+| 2Checkout (Verifone) | 3.5% + $0.35 | Works with HK entities, global coverage |
+| PayPal Business | 3.49% + fee | Higher fees but easier approval for most business types |

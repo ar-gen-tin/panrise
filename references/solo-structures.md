@@ -524,3 +524,137 @@ Before filing dissolution paperwork:
 - Cancel subscriptions and services billed to the company
 - Revoke any powers of attorney or third-party access
 - Obtain confirmation of dissolution in writing from the relevant authority and keep it permanently
+
+---
+
+## Hong Kong Offshore Claim Rejection — Response Playbook
+
+### Common Rejection Reasons
+
+The Inland Revenue Department (IRD) typically rejects offshore claims on the following grounds:
+
+| Rejection Reason | What IRD Is Looking For |
+|---|---|
+| Contracts signed in Hong Kong | Signature location, governing law clause, physical meeting records |
+| Director works from Hong Kong | Travel records, where decisions were logged as made |
+| HK local customers exist | Proportion of HK-sourced revenue vs. offshore |
+| No clear evidence of offshore operations | Absence of foreign travel, foreign contracts, non-HK IP addresses |
+
+### Tax Impact of Rejection
+
+If the offshore claim is rejected, the reclassified income is taxed at standard HK Profits Tax rates:
+
+- **8.25%** on the first HKD 2,000,000 of assessable profits
+- **16.5%** on profits above HKD 2,000,000
+- **Penalty interest** on underpaid tax (typically 5–10% per year from original due date)
+- Back-assessments can cover up to 6 years of prior filings
+
+### Response Timeline
+
+| Step | Deadline | Notes |
+|---|---|---|
+| File Objection to Commissioner of Inland Revenue | **30 days** from date of assessment notice | Free to file; automatically suspends collection of disputed amount |
+| Board of Review appeal | Within 1 month of Objection outcome | Independent tribunal; requires detailed submissions |
+| Court of First Instance | After Board of Review decision | Legal representation strongly recommended |
+| Court of Appeal | Final escalation | Rarely reached by solo founders; high cost |
+
+**Critical**: the 30-day Objection window suspends collection. Missing it means you must pay first and reclaim later.
+
+### Escalation Path
+
+```
+IRD Assessment (offshore claim denied)
+  └── Step 1: Objection to Commissioner (30 days, free)
+        └── Step 2: Board of Review (independent tribunal)
+              └── Step 3: Court of First Instance
+                    └── Step 4: Court of Appeal (final)
+```
+
+### Remediation After Rejection
+
+If the claim was rejected, take corrective action before the next filing cycle:
+
+- Switch to **electronic signatures** (DocuSign, etc.) with signing metadata showing a non-HK IP location
+- Hold at least one **board meeting per year outside Hong Kong** — keep written minutes recording the date and physical location
+- **Separate HK vs. non-HK client invoicing** — issue distinct invoice series with different entity addresses for domestic vs. offshore work
+- Review email headers and communication metadata to ensure key client negotiations are not logged as occurring in HK
+- Audit expense records: HK local expenses should remain below 10% of total company expenses
+
+### Minimum Substance for a One-Person Company to Maintain the Offshore Claim
+
+Solo founders face higher IRD scrutiny because there is no physical office or local staff to point to. The following are the minimum requirements:
+
+| Requirement | Practical Implementation |
+|---|---|
+| At least 1 board meeting/year held OUTSIDE HK | Calendar-documented trip abroad; written minutes with date + foreign city |
+| Core contracts executed outside HK | E-sign from abroad (metadata captured); no HK address as signing location |
+| Key decisions documented as made outside HK | Email threads, Slack/Notion records showing pricing/client decisions made while abroad |
+| HK local expenses < 10% of total expenses | Keep accounting categories clean; secretary + BR fee OK, but not HK client entertainment |
+| No HK-based employees doing core revenue work | Contractors abroad preferred; if you hire a HK VA, restrict their scope to admin only |
+
+### HK Company Annual Tax Filing — Practical Guide
+
+| Topic | Details |
+|---|---|
+| First Profits Tax Return issued | ~18 months after incorporation (IRD sends it automatically) |
+| Small company audit exemption | Revenue < HKD 5,000,000/year — no statutory audit required |
+| Zero return (Nil Return) | Only valid if the company had **zero revenue AND zero expenses** for the entire year |
+| Filing deadline extension | CPA firms with IRD block extensions can file up to 15 months after year-end |
+| Secretary company vs. CPA firm | Secretary: HKD 200–500/month (admin only); CPA: HKD 1,500–3,000/month (includes accounts + tax return) |
+
+**Recommended affordable HK accounting services for solo founders**:
+- **Sleek** (sleek.com/hk) — HKD 1,800–3,000/year all-in; good English support
+- **FastLane** (fastlane-group.com) — HKD 2,500–4,000/year; strong for offshore claim support
+- **Osome** (osome.com/hk) — app-based; HKD 1,500–3,500/year depending on transactions
+- **1stopbiz** — budget option; HKD 800–1,500/year for simple zero/low-revenue companies
+
+---
+
+## China Mainland Entity Types — Choosing the Right Structure (大陆主体类型选择)
+
+### Comparison Table
+
+| Type | Tax Rate | Invoice Type | Best For | Annual Cost (est.) |
+|---|---|---|---|---|
+| 个人 (no business license) | 20% labor income (代扣代缴 by payer) | Cannot issue | Occasional freelance < RMB 30K/year | $0 |
+| 个体户 (核定征收) | 0.5–3% (varies by region; 核定 rate on revenue) | 增值税普票 | Most solo founders; digital services, consulting | ~$500/yr |
+| 小规模纳税人 (limited company) | VAT 3% (quarterly revenue < RMB 300K exempt); CIT 5–10% on deemed profit | 增值税专票 (on request) | B2B with clients requiring 专票 for input VAT deduction | ~$2,000/yr |
+| 一般纳税人 (limited company) | VAT 6% / 13% (input deductible); CIT 25% (15% high-tech) | 增值税专票 | Revenue > RMB 5M, or heavy procurement needing input VAT offset | ~$5,000+/yr |
+
+### HK Company + 个体户 Combination (Most Common for CN Founders)
+
+This is the most widely used structure for Chinese solo founders with both domestic and international revenue:
+
+```
+Chinese Founder (个人)
+  ├── Hong Kong Limited Company
+  │     └── Receives global payments (Stripe, PayPal, Airwallex)
+  │     └── Pays "service fee" to mainland 个体户 via contract
+  │
+  └── 个体户 (mainland)
+        └── Issues invoice to HK company for services rendered
+        └── Pays 0.5–2% effective tax on service fee income
+        └── Founder withdraws funds as 个体户 income (low tax)
+```
+
+**Tax effect**: Service fee amount × 个体户 核定 rate (0.5–2%) vs. taking same money as HK company dividend (20% individual income tax on foreign dividends, payable in China). The 个体户 route can reduce effective tax rate by 10–18 percentage points on the transferred amount.
+
+**Requirements**:
+- Real service agreement with market-rate pricing (consulting, technical services, etc.)
+- 个体户 issues a valid 增值税普票 to the HK company
+- Services must be genuine and documented (deliverables, communications)
+
+**Warnings**:
+- Service fee should not exceed **50% of HK company revenue** — above this threshold triggers transfer pricing scrutiny
+- 个体户 核定征收 is being **progressively tightened** in major cities (上海 and 深圳 increasingly require 查账征收 instead, which taxes actual profits — eliminating the low-rate advantage)
+- Avoid registering 个体户 in high-scrutiny regions; consider lower-tier cities or free trade zones with published 核定 rates
+
+### When to Upgrade Your Mainland Entity
+
+| Trigger | Recommended Action |
+|---|---|
+| Domestic revenue > RMB 500K/year | Consider 小规模纳税人 (limited company) for credibility + 专票 capability |
+| B2B clients consistently requesting 增值税专票 | Upgrade to 小规模纳税人 or 一般纳税人 |
+| Need to deduct input VAT on procurement | Upgrade to 一般纳税人 |
+| 个体户 核定 rate revoked locally (查账 required) | Evaluate whether actual profit rate makes 个体户 still worthwhile vs. small company |
+| Revenue > RMB 5M | 一般纳税人 status becomes mandatory |
