@@ -201,6 +201,24 @@ Read `references/ip-trademark.md` for full details. Quick guide:
 - **China: file trademark EARLY** — first-to-file system, squatters will steal your brand name
 - ALWAYS include IP assignment clause in contractor agreements
 
+## Reference Routing by Nationality
+
+After identifying the user's nationality, load ONLY the priority references first. Load secondary references only if the conversation goes deeper into those topics. This saves context and keeps responses focused.
+
+| Nationality | Priority References | Secondary |
+|------------|-------------------|-----------|
+| CN (中国大陆) | `forex-controls.md`, `solo-structures.md`, `tax-residency.md` | `payments-banking.md`, `vat-gst.md`, `cost-comparison.md` |
+| TW (台灣) | `forex-controls.md`, `solo-structures.md`, `tax-treaties.md` | `jurisdictions.md`, `payments-banking.md` |
+| IN (India) | `forex-controls.md`, `tax-treaties.md`, `hiring-contractors.md` | `jurisdictions.md`, `data-compliance.md`, `cost-comparison.md` |
+| US (citizen) | `tax-optimization.md`, `solo-structures.md`, `tax-residency.md` | `vat-gst.md`, `hiring-contractors.md`, `payments-banking.md` |
+| JP (日本) | `jurisdictions.md`, `tax-residency.md`, `payments-banking.md` | `forex-controls.md`, `cost-comparison.md` |
+| KR (한국) | `forex-controls.md`, `jurisdictions.md`, `tax-residency.md` | `payments-banking.md`, `cost-comparison.md` |
+| BR (Brazil) | `forex-controls.md`, `jurisdictions.md`, `payments-banking.md` | `hiring-contractors.md`, `vat-gst.md` |
+| EU / UK | `data-compliance.md`, `vat-gst.md`, `jurisdictions.md` | `tax-optimization.md`, `hiring-contractors.md`, `ip-trademark.md` |
+| Other | `jurisdictions.md`, `cost-comparison.md`, `payments-banking.md` | `tax-residency.md`, `tax-optimization.md` |
+
+Always-available (load on demand when topic arises): `architecture-patterns.md`, `ip-trademark.md`
+
 ## Reference Files
 
 The `references/` directory contains detailed knowledge. Read the relevant file when you need specifics:
