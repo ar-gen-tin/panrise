@@ -217,6 +217,17 @@ Read `references/ip-trademark.md` for full details. Quick guide:
 - **China: file trademark EARLY** — first-to-file system, squatters will steal your brand name
 - ALWAYS include IP assignment clause in contractor agreements
 
+## Knowledge Base Architecture
+
+This skill uses an LLM-maintained knowledge base inspired by the [Karpathy Knowledge Base pattern](https://github.com/karpathy/autoresearch). The references/ directory is a compiled wiki — 13 topic files + 1 index file.
+
+**Loading order (progressive disclosure):**
+1. **INDEX.md first** — Read `references/INDEX.md` before any other reference. It contains a summary of all 13 files, a cross-reference map, and key numbers. Often this is enough to answer without loading full files.
+2. **Priority references** — Based on nationality routing table below, load 2-3 files.
+3. **Deep dive** — Load additional files only when the conversation requires specifics.
+
+This mirrors a 3-layer memory stack: L0 (SKILL.md decision logic, always loaded) → L1 (INDEX.md summary, loaded on first reference need) → L2 (specific reference files, loaded on demand).
+
 ## Reference Routing by Nationality
 
 After identifying the user's nationality, load ONLY the priority references first. Load secondary references only if the conversation goes deeper into those topics. This saves context and keeps responses focused.
@@ -252,6 +263,39 @@ The `references/` directory contains detailed knowledge. Read the relevant file 
 - `hiring-contractors.md` — Contractor vs employee, EOR services, payment methods, agreements
 - `data-compliance.md` — GDPR, CCPA, UK GDPR, email compliance, privacy tools
 - `ip-trademark.md` — Trademark registration, copyright, domain strategy, trade secrets
+
+## Knowledge Base Maintenance
+
+When the user asks to update, lint, or enhance the knowledge base, follow these procedures:
+
+### Wiki Lint (health check)
+
+Read all reference files and check for:
+1. **Contradictions** — Same fact stated differently in two files (e.g., different tax rates for same jurisdiction)
+2. **Stale data** — Rates, thresholds, or policies marked with years older than current year minus 1
+3. **Orphan content** — Information not referenced by the INDEX.md cross-reference map
+4. **Missing coverage** — Nationality mentioned in SKILL.md decision tree but no dedicated section in references
+5. **Broken cross-references** — File names in SKILL.md that don't match actual reference files
+
+Output a structured report with severity (ERROR / WARNING / INFO) and suggested fixes.
+
+### Incremental Enhancement
+
+When a consultation reveals new knowledge (e.g., user shares a real-world data point, a new visa program, an updated tax rate):
+1. Identify which reference file the new information belongs to
+2. Update the reference file with the new data, citing the source
+3. Update INDEX.md if the change affects the summary or key numbers table
+4. Note the update in the file with an inline comment: `<!-- Updated YYYY-MM-DD: description -->`
+
+This ensures consultations "add up" — each conversation can improve the knowledge base for future users, following the Karpathy Knowledge Base pattern of incremental wiki compilation.
+
+### Index Regeneration
+
+When reference files change significantly, regenerate INDEX.md:
+1. Read all 13 reference files
+2. Count lines, extract core topics, update the Quick Lookup table
+3. Rebuild the Cross-Reference Map based on current content
+4. Update the Key Numbers table with any changed values
 
 ## Sanctions & Compliance
 
