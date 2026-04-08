@@ -355,7 +355,7 @@ Every major platform reports to tax authorities. There is no "under the radar" o
 
 | Bank | Type | Account Opening | Monthly Fee | SWIFT Inbound | Stripe Compatible | Best For |
 |------|------|----------------|-------------|---------------|-------------------|----------|
-| ZA Bank | Virtual | Fully online app, HK ID or 回乡证 | HKD 0 | Yes (USD/HKD) | Yes | Starting out, low-cost |
+| ZA Bank | Virtual | Fully online app, requires HKID | HKD 0 | Yes (USD/HKD) | Yes | Starting out, low-cost (HKID required) |
 | Mox Bank (天星) | Virtual | Fully online | HKD 0 | No SWIFT inbound | No | Personal spending only |
 | Ant Bank (众安) | Virtual | Fully online | HKD 0 | Yes | Yes | Backup account |
 | Airwallex HK | Payment account | Online + video KYC | HKD 0 | Yes (60+ currencies) | Yes | High-frequency collections |
@@ -364,9 +364,12 @@ Every major platform reports to tax authorities. There is no "under the radar" o
 
 ### ZA Bank — Specific Notes for Mainland Founders
 
+**IMPORTANT: ZA Bank Business accounts require ALL directors/shareholders to hold valid HKID and be HK tax residents. Personal accounts also require HKID. Mainland Chinese without HKID cannot open ZA Bank business accounts — use Airwallex HK or Statrys as alternatives.**
+
 | Topic | Detail |
 |-------|--------|
-| ID accepted | Mainland residents can open with 港澳通行证 (Home Return Permit) |
+| ID accepted (personal) | Requires HKID; 港澳通行证 alone is NOT sufficient for account opening |
+| ID accepted (business) | All directors/shareholders must hold valid HKID and be HK tax residents |
 | First deposit | Via Wise HKD transfer or FPS from another HK account |
 | Limitations | No cheque book, no trade finance, no credit facility |
 | KYC renewal | Annual, mostly automated (document upload via app) |
@@ -484,7 +487,7 @@ The optimal daily banking stack for a founder commuting across the Shenzhen-HK b
 
 | Tool | Purpose | Setup Requirement |
 |------|---------|-------------------|
-| **ZA Bank** (personal HKD account) | Primary HK spending account; works at all HK merchants and ATMs; debit card issued | Open via app with 港澳通行证 (Home Return Permit); no in-person visit needed |
+| **ZA Bank** (personal HKD account) | Primary HK spending account; works at all HK merchants and ATMs; debit card issued | Open via app with HKID; no in-person visit needed. **Mainland residents without HKID cannot open ZA Bank — use Airwallex HK or Statrys instead** |
 | **Salary transfer** from HK company | Fund your ZA Bank personal account with salary from your HK company each month | Set up regular bank transfer from company account to personal ZA Bank |
 | **Octopus card (八达通)** | MTR, buses, minibuses, convenience stores, fast food — covers ~95% of daily HK transit and small purchases | Available at any MTR station; top up with HK card or cash |
 | **Mainland bank card** (UnionPay) | Mainland expenses only — groceries, restaurants, Didi, utilities in Shenzhen | Keep a separate card for mainland use; avoid using it in HK to preserve your forex quota |

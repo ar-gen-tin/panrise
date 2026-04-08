@@ -24,7 +24,7 @@ Most countries use the 183-day rule: if you spend ≥183 days in a country durin
 ### Zero Personal Income Tax Countries
 | Country | Tax on Foreign Income | Residency Visa | Cost | Notes |
 |---------|---------------------|----------------|------|-------|
-| UAE/Dubai | 0% | Yes (via freezone) | $3-10K/year | Must establish genuine residency |
+| UAE/Dubai | 5% (effective Jan 2026; was 0% until Dec 2025) | Yes (via freezone) | $3-10K/year | Must establish genuine residency |
 | Cayman Islands | 0% | Yes (with investment) | $18-24K/year | Expensive but total tax freedom |
 | Bahamas | 0% | Yes (Permanent Residency) | $1K/year | Caribbean lifestyle |
 | Monaco | 0% | Yes (deposit required) | €500K+ deposit | Ultra-high-net-worth only |
@@ -47,7 +47,7 @@ Most countries use the 183-day rule: if you spend ≥183 days in a country durin
 | Croatia | Digital Nomad | 1 year | €2,540/month | 0% local tax in first year |
 | Estonia | Digital Nomad | 1 year | €4,500/month | Not tax resident if <183 days |
 | Greece | Digital Nomad | 2 years | €3,500/month | 50% income tax reduction for 7 years |
-| Dubai | Virtual Working Program | 1 year | $5,000/month | 0% personal income tax |
+| Dubai | Virtual Working Program | 1 year | $5,000/month | 5% personal income tax (effective Jan 2026; was 0% until Dec 2025) |
 | Thailand | LTR Visa | 5-10 years | Varies | Flat 17% (vs normal up to 35%) |
 
 ## Critical Tax Traps for Solo Founders
@@ -55,7 +55,7 @@ Most countries use the 183-day rule: if you spend ≥183 days in a country durin
 ### Trap 1: US Citizens — You Can't Escape US Tax
 - US taxes worldwide income regardless of where you live
 - Must file US return even if living abroad permanently
-- **FEIE**: Exclude up to ~$126,500 (2024) of earned income if bona fide resident abroad
+- **FEIE**: Exclude up to ~$130,000 (2025) / $132,900 (2026) of earned income if bona fide resident abroad
 - **FTC**: Credit foreign taxes paid against US tax
 - **CFC rules**: If you own >50% of a foreign corporation, Subpart F income and GILTI apply
   - Form 5471 mandatory: $10,000+ penalty per year if missed
@@ -87,7 +87,7 @@ Most countries use the 183-day rule: if you spend ≥183 days in a country durin
 
 ### Profile A: US Citizen, Digital Nomad
 - **Structure**: Wyoming/Delaware LLC (pass-through)
-- **Tax strategy**: FEIE ($126K exclusion) + FTC for anything above
+- **Tax strategy**: FEIE (~$130K 2025 / $132.9K 2026 exclusion) + FTC for anything above
 - **Residency**: Establish bona fide residence in a foreign country (need to be there 330+ days)
 - **Banking**: Mercury + Wise
 - **Avoid**: Foreign corporations (triggers CFC/GILTI complexity)
@@ -109,10 +109,10 @@ Most countries use the 183-day rule: if you spend ≥183 days in a country durin
 
 ### Profile D: Founder Wanting Zero Tax Legally
 - **Structure**: Dubai Freezone (or Wyoming LLC)
-- **Tax residency**: UAE (0% personal income tax)
+- **Tax residency**: UAE (5% personal income tax effective Jan 2026; was 0% until Dec 2025)
 - **Requirement**: Actually live in UAE (get Emirates ID, establish life there)
 - **Banking**: Local UAE bank + Wise
-- **Total tax**: 9% corporate on >AED 375K + 0% personal = effective ~5-8%
+- **Total tax**: 9% corporate on >AED 375K + 5% personal (2026) = effective ~12-15%
 - **NOT for US citizens** (still owe US tax)
 
 ## Health Insurance for Global Solo Founders

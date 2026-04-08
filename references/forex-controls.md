@@ -53,7 +53,7 @@ Forex (外汇) controls determine whether you can freely move money in and out o
 - Covers: investment abroad, gifts, maintenance, travel, education
 - **Can be used to fund an overseas company** (investment under LRS)
 - Requires: PAN card, A2 form through authorized dealer bank
-- **TCS (Tax Collected at Source)**: 20% TCS on remittances >₹7 lakh/year (refundable against tax liability)
+- **TCS (Tax Collected at Source)**: 20% TCS on remittances >₹10 lakh/year (effective April 2025; was ₹7 lakh; refundable against tax liability). Budget 2026 further reduces education/medical TCS to 2%.
 
 #### Business Forex
 - Current account transactions (trade payments): generally free with documentation
@@ -163,6 +163,7 @@ Forex (外汇) controls determine whether you can freely move money in and out o
 - No limits on repatriation of capital or profits
 - Free movement of funds in any currency
 - One of the key attractions for Dubai freezone structures
+- **Note**: UAE introduced 5% personal income tax effective January 2026 (was 0% until December 2025); forex controls remain zero
 
 ---
 
@@ -191,7 +192,7 @@ Forex (外汇) controls determine whether you can freely move money in and out o
 | Your Nationality | Forex Impact | Recommended Structure |
 |-----------------|-------------|---------------------|
 | Chinese (大陆) | **CRITICAL** — $50K limit blocks global ops | HK Ltd → HK bank → Stripe HK |
-| Indian | **HIGH** — $250K LRS limit, 20% TCS >₹7L | US LLC or SG Pte. Ltd. via LRS |
+| Indian | **HIGH** — $250K LRS limit, 20% TCS >₹10L (Apr 2025+) | US LLC or SG Pte. Ltd. via LRS |
 | Brazilian | **HIGH** — Complex bank requirements | US LLC + Mercury |
 | Taiwanese | **MODERATE** — Declaration >$150K | HK Ltd or SG Pte. Ltd. |
 | Korean | **MODERATE** — Report >$50K transactions | US LLC or SG Pte. Ltd. |
@@ -262,6 +263,8 @@ Forex (外汇) controls determine whether you can freely move money in and out o
 ## CRS来函应对流程
 
 > CRS（Common Reporting Standard）下，香港、新加坡等地银行每年向大陆税务局自动报送账户信息。收到税务局来函不必慌张，按函件类型分级应对。
+
+**2025年执法升级**: 2025年被视为CRS实际执法元年。税务局已从仅针对超高净值人群（$10M+）扩展到中产阶层（<$1M资产）。回溯期覆盖2022-2024年。2025年12月专项行动追缴1818名高收入个人15亿元。大数据系统可自动识别持有境外账户但未申报的个人。
 
 ### 来函类型识别
 

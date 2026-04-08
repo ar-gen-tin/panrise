@@ -6,6 +6,7 @@
 |---|---|---|---|
 | Wyoming LLC | Annual Report | 1st day of anniversary month | $50 late fee, then $2/month |
 | Wyoming LLC | Registered Agent renewal | Annual | LLC dissolved if unpaid |
+| US LLC (all) | **2026 OBBBA Law Changes** | Ongoing — monitor IRS updates | The One Big Beautiful Bill Act (effective 2026) introduces: ① 1% remittance tax on certain cross-border transfers from US entities ② Enhanced FTIN (foreign taxpayer identification number) requirements ③ BOI reporting for domestic entities currently suspended but rules still evolving |
 | Delaware LLC | Franchise Tax | June 1 | $200 penalty + 1.5%/month interest |
 | Delaware LLC | Annual Report | March 1 | $200 penalty |
 | US (any LLC, non-US owner) | Form 5472 + pro-forma 1120 | April 15 (or extension) | $25,000 per form per year |

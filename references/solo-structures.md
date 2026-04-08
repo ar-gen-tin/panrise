@@ -146,14 +146,14 @@ e-Residency does NOT make you an Estonian tax resident. You're still taxed where
 ## Structure 6: Dubai Freezone — Best for Zero Personal Tax
 
 ### Overview
-- **Best for**: Founders seeking 0% personal income tax + residency visa
-- **Tax**: 9% corporate (on income >AED 375K), 0% personal income tax
+- **Best for**: Founders seeking low personal income tax + residency visa
+- **Tax**: 9% corporate (on income >AED 375K), 5% personal income tax (effective Jan 2026; was 0% until Dec 2025)
 - **Setup cost**: AED 5,000-15,000/year (license + visa + virtual office)
 - **Timeline**: 3-10 days
 - **Banking**: Emirates NBD, Mashreq, Wise (account opening improving)
 
 ### Key Advantages
-- 0% personal income tax
+- 5% personal income tax (effective Jan 2026; was 0% until Dec 2025)
 - Residency visa included (can be used as tax residency base)
 - 100% foreign ownership
 - Fast setup
@@ -166,7 +166,7 @@ e-Residency does NOT make you an Estonian tax resident. You're still taxed where
 - Health insurance
 
 ### When to Choose Dubai
-- You want 0% personal tax AND a physical base
+- You want low personal tax AND a physical base
 - You're willing to live in/visit UAE regularly (to establish tax residency)
 - Your income is >$100K/year (to justify costs)
 - You want a residency visa

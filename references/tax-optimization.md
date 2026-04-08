@@ -27,7 +27,7 @@ A US LLC owned by a non-US person is:
 
 | Residency | On $100K Profit | On $200K Profit | Effort Level |
 |-----------|----------------|----------------|-------------|
-| UAE/Dubai | $0 | $0 | High (must live there) |
+| UAE/Dubai | $5,000 (5% PIT effective Jan 2026) | $10,000 (5% PIT effective Jan 2026) | High (must live there) |
 | Panama | $0 (foreign income) | $0 | Medium |
 | Georgia | $1,000 (1% micro) | $2,000 | Low |
 | Paraguay | $0 (foreign income) | $0 | Low |
@@ -44,7 +44,7 @@ A US LLC owned by a non-US person is:
 
 **Key insight**: These 5 flags don't need to be in the same country. A solo founder can legally have:
 - Citizenship: China
-- Tax residency: Dubai (0% tax)
+- Tax residency: Dubai (5% PIT effective Jan 2026)
 - Company: Wyoming LLC (0% US tax)
 - Banking: Mercury (US) + Wise (multi-currency)
 - Living: Dubai + travel
@@ -138,7 +138,7 @@ A "disposal" includes: selling for fiat, swapping one token for another, and spe
 | Germany | Ordinary income if held <1yr; **tax-free if held >1yr** | Same as income treatment (see left) | Anlage SO |
 | Singapore | Income tax if trading is deemed a "business"; otherwise 0% | 0% (no capital gains tax) | IRAS filing |
 | Portugal | 28% flat on gains held <365 days; **exempt if held >365 days** | See left | IRS filing |
-| UAE | 0% | 0% | None required |
+| UAE | 5% PIT (effective Jan 2026; was 0% until Dec 2025) | 0% | None required |
 | Japan | Up to 55% as "miscellaneous income" (総合課税) | Same — no preferential rate | 確定申告 |
 | India | 30% flat + 4% cess on all crypto gains; 1% TDS on transactions | Same flat rate | ITR with Schedule VDA |
 

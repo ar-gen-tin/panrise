@@ -36,11 +36,11 @@
 ### 🇦🇪 Dubai (Freezone)
 - **Solo score**: ★★★★ (if you'll live there)
 - **Corp tax**: 9% (>AED 375K) / 0% below
-- **Personal tax**: 0%
+- **Personal tax**: 5% (effective Jan 2026; was 0% until Dec 2025)
 - **Setup**: AED 5,000-12,000 | Timeline: 3-10 days
 - **Annual cost**: AED 10,000-20,000 (license + visa + office + insurance)
 - **Banking**: Emirates NBD, Mashreq
-- **Good for**: Founders wanting 0% personal tax AND a base
+- **Good for**: Founders wanting low personal tax AND a base
 - **Watch out**: Must actually live there; high cost of living; banking can be slow
 
 ## Tier 2: Good for Specific Situations
@@ -110,7 +110,7 @@
 
 | Country | Personal Tax on Foreign Income | Nomad Visa | Livability |
 |---------|-------------------------------|-----------|------------|
-| 🇦🇪 UAE | 0% | Yes | High cost, safe |
+| 🇦🇪 UAE | 5% (effective Jan 2026; was 0% until Dec 2025) | Yes | High cost, safe |
 | 🇵🇦 Panama | 0% (territorial) | Easy residency | Affordable, warm |
 | 🇬🇪 Georgia | 1% (micro business) | Easy residency | Very affordable |
 | 🇵🇾 Paraguay | 0% (territorial) | Easy residency | Very affordable |

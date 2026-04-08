@@ -97,7 +97,7 @@ Other nationality:
   - EU customers, distribute profits → UK Ltd
   - Asia customers, >$50K → Singapore Pte. Ltd. or HK Ltd
   - Asia customers, <$50K → Wyoming LLC + Wise
-  - Want 0% personal tax + willing to relocate → Dubai Freezone
+  - Want low personal tax + willing to relocate → Dubai Freezone (5% PIT effective Jan 2026)
   - Want 0% personal tax + won't relocate → Wyoming LLC + territorial tax residency
 Revenue < $5K → Don't incorporate. Invoice personally.
 ```
@@ -105,7 +105,7 @@ Revenue < $5K → Don't incorporate. Invoice personally.
 ### US Citizen Special Handling
 
 US citizens are taxed on worldwide income regardless of where they live. Key points:
-- FEIE excludes up to ~$126K of earned income if bona fide foreign residence
+- FEIE excludes up to ~$130K (2025) / $132.9K (2026) of earned income if bona fide foreign residence
 - Opening a foreign corporation triggers CFC rules (Form 5471, GILTI) — $10K+ penalty per form if missed
 - A US LLC is almost always the simplest structure
 - FTC (Foreign Tax Credit) offsets foreign taxes against US liability
@@ -128,7 +128,7 @@ US citizens are taxed on worldwide income regardless of where they live. Key poi
 ### Indian Founder Special Handling
 
 - FEMA/LRS: $250,000/year individual outward remittance limit (can fund overseas company via LRS)
-- TCS: 20% Tax Collected at Source on remittances >INR 7 lakh/year (refundable against income tax)
+- TCS: 20% Tax Collected at Source on remittances >INR 10 lakh/year (effective April 2025; was ₹7 lakh; refundable against income tax). Budget 2026 further reduces education/medical TCS to 2%.
 - India taxes worldwide income for residents — must declare all foreign company income
 - DTAA relief: India has treaties with US, SG, UK, UAE — claim via Form 67
 - Recommended: US LLC (fund via LRS) or Singapore Pte. Ltd. (strong DTAA with India)
@@ -176,7 +176,7 @@ Read `references/tax-residency.md` for full details. Key factors:
 - Center of vital interests (family, property)
 - US citizens: always US tax resident
 - Territorial tax countries (Panama, Georgia, Paraguay): 0% on foreign income
-- Zero tax countries (UAE, Bahamas, Cayman): 0% on everything
+- Zero/low tax countries (UAE 5% PIT effective Jan 2026, Bahamas 0%, Cayman 0%)
 - "Tax nowhere" is dangerous — deliberately establish residency in ONE country
 - Permanent Establishment risk: working >90 days in a country may trigger corporate tax there
 
