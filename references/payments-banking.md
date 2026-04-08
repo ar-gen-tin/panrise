@@ -494,3 +494,46 @@ The optimal daily banking stack for a founder commuting across the Shenzhen-HK b
 | **Airwallex HK** (company account) | Receive international payments (Stripe, PayPal, wire transfers) into company; batch pay overseas contractors | Set up alongside ZA Bank for business operations |
 
 **Key principle**: keep company funds in the company account (Airwallex/HSBC), pay yourself a regular salary or director's fee into your personal ZA Bank account, and use the ZA Bank debit card for all HK personal spending. This maintains a clean separation between business and personal funds and avoids director loan complications.
+
+---
+
+## US Banking Comparison: Mercury vs Wise vs Relay (2026)
+
+| Feature | Mercury | Wise Business | Relay |
+|---------|---------|---------------|-------|
+| Monthly fee | $0 | $0 | $0 |
+| Currencies | USD only | 50+ with local details | USD only |
+| FDIC insurance | Up to $5M (sweep) | None (safeguarded, not insured) | Up to $3M (sweep) |
+| Wire: domestic | $5 | N/A (native transfers) | Not specified |
+| Wire: international | Varies (opaque) | Mid-market + 0.57%+ | Via partner services |
+| Non-resident opening | Yes (ITIN accepted, tightened 2025) | Yes (global) | Yes |
+| Best for | Primary US banking, Stripe payouts | Multi-currency, international payments | Profit-first cash management |
+| Limitation | USD-only, tightened non-resident approvals | Not a bank, no FDIC | USD-only, fewer cross-border features |
+
+**Recommended setup**: Mercury (primary, Stripe payouts) + Wise (multi-currency, backup) = $0/month additional cost.
+
+---
+
+## Banking Redundancy: 3-Layer Architecture
+
+- **Layer 1 (Primary/US)**: Mercury or Relay — Stripe payouts, US expenses, tax payments (EFTPS)
+- **Layer 2 (Multi-currency)**: Wise Business or Payoneer — international payments, FX conversion, backup revenue receipt
+- **Layer 3 (Local/Residence)**: Local bank — tax payments, rent, personal expenses
+- **Critical**: pre-verify backup Stripe payout destination BEFORE crisis (takes 2-3 days)
+- Maintain 30-60 day operating buffer in Layer 3
+- Prevent dormancy with monthly inter-layer transfers
+- **Cost**: $200-600/yr in fees vs multi-week revenue stoppage if single account freezes
+
+---
+
+## Health Insurance for Cross-Border Founders
+
+| Plan | Cost (age 30) | Coverage | Deductible | Model | Key Limitation |
+|------|--------------|----------|------------|-------|----------------|
+| SafetyWing Essential | $63/4 weeks | $250K/incident | $0 | Flexible subscription | No pre-existing, maternity, mental health, cancer |
+| SafetyWing Complete | $178/month | $1.5M/year | $0 | 12-month commitment | Requires annual commitment |
+| World Nomads | ~$86/month | $100-150K | Varies | Per-trip | Requires trip dates, bad for ongoing work |
+| IMG Global | $60-150/month | Up to $8M | Varies | Annual | Highest ceiling, customizable |
+| Cigna Global | $150-460/month | $1-2M+ | Varies | Annual | Premium, may cover pre-existing |
+
+**Notes**: SafetyWing does NOT satisfy US ACA requirements. Does not cover work injuries. Separate business liability insurance needed. Tax deductibility depends on entity structure.

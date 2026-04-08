@@ -192,3 +192,75 @@ Self-employed or freelancers can self-pay pension + medical insurance in their h
 **Recommendation for Digital Nomads:**
 
 Maintain minimum social security contributions via flexible employment (灵活就业) if you plan to return to China long-term. Supplement with international health insurance (e.g., SafetyWing, Cigna Global) during the gap period to avoid medical coverage lapses.
+
+---
+
+## 9. Form 5472 Deep Dive — The $25K Trap
+
+- **WHO**: every foreign-owned single-member US LLC, even with zero income
+- **TRIGGER**: any "reportable transaction" (capital contributions, distributions, loans, rent, service payments) — LLC formation itself counts
+- **DUE**: April 15 following calendar year (extension to Oct 15 via Form 7004)
+- **METHOD**: attach to pro forma Form 1120 (all zeros); can e-file via authorized provider or mail
+- **PENALTY**: $25,000 per form per year; after IRS notice, additional $25K every 30 days if unfiled beyond 90-day window; NO statutory cap
+- **Common mistakes**: 1) Thinking zero income = no filing 2) Not filing in formation year 3) Assuming Stripe Atlas covers it (it doesn't) 4) No documentation trail of owner-LLC transactions
+- **Remediation**: late filing with reasonable cause explanation can get abatement (at IRS discretion); relying on a CPA who failed to mention it is a stronger defense than "I didn't know"
+- **Cost to file**: CPA $500-2,000/yr; Firstbase $899/yr; Doola $1,999/yr; DIY possible but risky
+
+---
+
+## 10. US Compliance Calendar: Q1-Q4 Detail
+
+**Q1 (Jan-Mar):**
+
+| Date | Filing | Penalty |
+|------|--------|---------|
+| Jan 31 | Issue 1099-NEC to US contractors paid >$600 | $60-310 per late form |
+| Mar 15 | S-Corp (1120-S) and Partnership (1065) returns due | — |
+
+**Q2 (Apr-Jun):**
+
+| Date | Filing | Notes |
+|------|--------|-------|
+| Apr 15 | Personal return (1040) | — |
+| Apr 15 | C-Corp return (1120) | — |
+| Apr 15 | FBAR | Auto-extends to Oct 15 |
+| Apr 15 | Form 5472 | — |
+| Apr 15 | Q1 estimated tax | — |
+| Jun 15 | Expat filing extension | — |
+| Jun 15 | Q2 estimated tax | — |
+
+**Q3 (Jul-Sep):**
+
+| Date | Filing | Notes |
+|------|--------|-------|
+| Sep 15 | Q3 estimated tax | — |
+| Sep 15 | Extended entity returns | — |
+
+**Q4 (Oct-Dec):**
+
+| Date | Filing | Notes |
+|------|--------|-------|
+| Oct 15 | Extended personal return | — |
+| Oct 15 | FBAR final deadline | — |
+| Oct 15 | Extended C-Corp | — |
+| Jan 15 (next yr) | Q4 estimated tax | — |
+
+**Late filing penalty**: 5% of unpaid tax per month, up to 25%.
+
+---
+
+## 11. 72-Hour Response Protocol (Account Freeze or Tax Notice)
+
+**Phase 1 (0-24h)**: Identify trigger, take basic operational action (contact institution, read deadline), gather docs. Do NOT make structural positions yet.
+
+**Phase 2 (24-48h)**: Map which jurisdiction to respond from, decide which entity to assert as owner, develop consistent income narrative, verify alignment with prior statements to other authorities.
+
+**Phase 3 (48-72h)**: Submit coherent response. Positions become precedent — hard to revise once documented. Any inconsistency between jurisdictions creates compounding exposure.
+
+**Common mistakes:**
+
+| Mistake | Why It Matters |
+|---------|---------------|
+| Treating it as purely operational | Solving the freeze without considering structural exposure — the fix creates a new problem |
+| Improvising positions under deadline | Inconsistent narrative across platforms or jurisdictions is worse than no narrative |
+| Asserting different income allocations to different countries | Creates direct contradiction that both authorities can discover via CRS/FATCA exchange |

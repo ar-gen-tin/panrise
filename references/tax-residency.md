@@ -411,3 +411,55 @@ Child school fees (tuition, activity fees) are **not deductible** as a company e
 | Medical / elderly parent care | RMB 3,000/month elderly care deduction | No direct equivalment | Claim on mainland return |
 
 The general principle: match the deduction to the jurisdiction where the family member generating the expense is primarily located, and assign it to whichever spouse faces the higher marginal rate in that jurisdiction.
+
+---
+
+## Tax Treaty Tie-Breaker Rules (When Two Countries Claim You)
+
+When two countries both assert that you are their tax resident in the same year, the Double Tax Agreement (DTA) between them contains a tie-breaker clause — typically modelled on OECD Model Tax Convention Article 4. The tie-breaker is applied sequentially: you stop at the first step that resolves the conflict.
+
+### OECD Article 4 Four-Step Hierarchy
+
+| Step | Test | Key Details |
+|------|------|-------------|
+| **1** | **Permanent home availability** | Where do you have a home available for your continuous use? Rented accommodation counts. A home you own but have rented OUT to tenants is NOT available — you cannot walk in and stay there. A hotel room does not count. |
+| **2** | **Center of vital interests** | Where are your closest personal and economic ties? Factors include: location of family, employment/business, social activities, bank accounts, property ownership. No single factor dominates — it is a holistic assessment. |
+| **3** | **Habitual abode** | Where do you spend time habitually? Unlike the 183-day rule (calendar year), habitual abode is assessed over an extended period — it can span more than one calendar year. |
+| **4** | **Nationality** | Citizenship as the final tie-breaker. Dual nationals may not be resolved at this step — the treaty falls through to mutual agreement (MAP), which takes 24–36 months. |
+
+> **Practical note:** Most founders resolve at Step 1 or Step 2. Steps 3 and 4 arise when you genuinely split time evenly or have structured your life to be ambiguous — which creates its own risks.
+
+### US-Specific: Winning the Tie-Breaker Does Not Eliminate US Obligations
+
+Winning the tie-breaker (i.e., being determined a resident of the other country for treaty purposes) does **not** eliminate the US worldwide income filing obligation for US citizens. It only determines which country has **primary taxing rights** on specific categories of income. The US retains the right to tax its citizens on worldwide income regardless of treaty outcome; the Foreign Tax Credit (FTC) then prevents actual double payment.
+
+### Form 8833: Treaty-Based Return Position Disclosure
+
+When you claim treaty benefits on a US return (e.g., asserting that certain income is only taxable in the other country), you must attach **Form 8833** to your US return.
+
+- **Penalty for failure to file**: $1,000 per failure per return
+- Required any time you take a treaty position that reduces or eliminates US tax on income that would otherwise be taxable
+
+### Documentation You Need to Support a Tie-Breaker Claim
+
+| Document | Why It Matters |
+|----------|---------------|
+| Lease agreements or property ownership records | Proves (or disproves) permanent home availability |
+| Utility bills in your name | Evidence of actual use of accommodation |
+| Passport stamps / border crossing records | Day-count evidence for habitual abode |
+| Bank statements | Shows where economic life is centered |
+| Business records (contracts, invoices) | Shows where economic activity is located |
+| School enrollment records (children) | Strong personal ties evidence |
+| Tax residency certificate (TRC) from claiming country | Primary official evidence for the tie-breaker position |
+
+> **Most founders have maybe three of these seven ready.** Start collecting now — documentation gaps are exploited during audits. A TRC from the country where you claim residency is the single most important document.
+
+### Older Treaties and Modern Income
+
+Many DTAs were negotiated before SaaS, software licensing, and digital services existed. Older treaty language may not clearly cover your income type:
+
+- "Business profits" articles may not apply to passive SaaS revenue if you have no PE in the other country
+- "Royalties" articles vary: some cover software explicitly, others do not
+- "Independent personal services" articles (eliminated in the 2000 OECD model) still appear in older bilateral treaties
+
+**Consequence:** Treaty benefits you assume apply to your income may not cover your actual revenue stream. Verify the specific treaty text before taking a position, and consider a written tax opinion if the amounts are material.

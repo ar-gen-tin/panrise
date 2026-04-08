@@ -184,3 +184,73 @@ Most solo founders use **cash basis** accounting (simpler, legal for small busin
 - **Free trial → paid conversion**: no income during trial period; income recognized at first successful charge
 - **Lifetime deals (LTD)**: on cash basis, full amount recognized when received; on accrual basis, spread over estimated service life (creates complexity — factor this in before running LTD promotions)
 - **Chargebacks**: treat like refunds; the gross amount is removed from income in the period settled
+
+## Transfer Pricing for Solo Founders (When You Have Two Entities)
+
+> **Scope:** This section applies only if you own 100% of two related entities — e.g., a US LLC AND an Estonian OÜ. If you have a single entity, transfer pricing is not relevant to you. The earlier guidance in this KB ("don't use transfer pricing tricks at solo scale") still holds for single-entity founders.
+
+### Why It Applies Automatically
+
+When you own two related entities, every transaction between them is a "controlled transaction." Tax authorities in both countries apply transfer pricing rules regardless of entity size. There is no small-business exemption.
+
+### Five Transaction Types That Require Documentation
+
+| # | Transaction Type | Description | Arm's Length Benchmark |
+|---|-----------------|-------------|----------------------|
+| 1 | **Management fees** | Strategic oversight, board-level direction provided by one entity to the other | Typically 3–8% of subsidiary revenue, or hourly rate × documented hours |
+| 2 | **Service fees** | Development, consulting, technical services between entities | Market rate for equivalent freelance/contractor work; use Toptal/Upwork data |
+| 3 | **IP licensing** | Software, algorithms, brand, domain, code licensed from one entity to the other | Comparable royalty rates: 5–30% of revenue depending on IP type and industry |
+| 4 | **Cost-sharing** | Shared SaaS subscriptions, cloud hosting, contractors benefiting both entities | Allocate by revenue split or documented usage percentage |
+| 5 | **Intercompany loans** | Any cash transferred between entities that is not a dividend or service fee | Must charge arm's length interest; zero-interest loans fail testing |
+
+### Documentation Standard
+
+You need a **10–20 page transfer pricing memo** — not a Big Four 200-page report. The memo should cover:
+
+1. **Functional analysis** — what each entity does, what risks it bears, what assets it owns
+2. **Transaction descriptions** — what flows between the two entities and why
+3. **Method selection** — which OECD method you used and why it was chosen
+4. **Arm's length justification** — the comparable data supporting your prices
+
+**Timing requirement (US):** Documentation must exist at the time of filing, not created after an audit begins. "Contemporaneous" means before you file the return for that tax year.
+
+### OECD Pricing Methods
+
+| Method | Full Name | When to Use |
+|--------|-----------|-------------|
+| CUP | Comparable Uncontrolled Price | When you can find a genuinely similar third-party transaction |
+| TNMM | Transactional Net Margin Method | Most practical for service transactions; compares net profit margins |
+| Cost Plus | Cost Plus | Straightforward services where cost base is clear |
+| Resale Price | Resale Price Method | Distribution or resale arrangements |
+| Profit Split | Profit Split | Unique intangibles, where both parties contribute significant value |
+
+**For solo founders: TNMM or Cost Plus are the most practical.** TNMM lets you point to published industry margin data; Cost Plus lets you document actual costs and apply a reasonable markup.
+
+### Comparability Sources
+
+- **Freelance platform data**: Toptal and Upwork published rate cards for development, consulting, design roles
+- **Industry surveys**: Robert Half, Levels.fyi, Stack Overflow Developer Survey for salary benchmarks
+- **Cost-plus with public margin data**: Take your actual cost base and apply a margin from comparable public companies (use Bureau van Dijk Orbis or similar)
+
+### US-Specific Requirements
+
+- **Form 5472**: Required for foreign-owned US corporations (including single-member LLCs treated as corporations for this purpose); covers intercompany transactions
+- **Section 482**: IRS authority to reallocate income between related parties if transactions are not at arm's length
+- **Contemporaneous documentation**: Must exist at filing date; no penalty protection without it
+
+### Risk Without Documentation
+
+| Risk | What Happens |
+|------|-------------|
+| Income imputation | Tax authority imputes income you never received (e.g., charges a service fee you forgot to charge) |
+| Deduction disallowance | Deduction disallowed in one entity because the fee is deemed non-arm's length |
+| Double taxation | One country adjusts income up; the other country doesn't automatically adjust down |
+| MAP resolution | Mutual Agreement Procedure to resolve the double tax takes **24–36 months** |
+
+### When This Matters
+
+| Revenue Level | Guidance |
+|--------------|----------|
+| < $200K, single entity | Not relevant — see rest of this KB |
+| < $200K, two entities | Keep transactions simple and documented; memo still required but low audit risk |
+| > $200K, two entities | Full transfer pricing memo required; consider engaging a specialist for the first year |

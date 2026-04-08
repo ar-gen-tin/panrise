@@ -705,3 +705,116 @@ A Hong Kong limited company can open brokerage accounts with Interactive Brokers
 | Best for | Small portfolios under USD 50K | Larger portfolios, active trading, or where US WHT saving on dividends justifies the cost |
 
 **Break-even on WHT saving**: The 20-percentage-point reduction in US dividend withholding (30% → 10%) saves USD 200 per year on a USD 1,000 dividend. If your annual US dividend income exceeds ~USD 2,500–5,000, the WHT saving alone can offset the company maintenance cost.
+
+---
+
+## US LLC Formation Services Comparison (2026)
+
+| Service | Formation Fee | Annual (Year 2+) | State | Form 5472 | 3-Year Total |
+|---|---|---|---|---|---|
+| Stripe Atlas | $500 | ~$400 (RA+franchise) | Delaware only | Not included | $3,100–4,600 |
+| Firstbase | $399 | ~$359 (RA included) | Wyoming available | $899/yr add-on | $3,276 |
+| Doola | $297 | ~$300 (RA included) | Wyoming available | $1,999/yr (Total) | $6,474 |
+| DIY (Wyoming) | $100 | $60 (state) + $100 (RA) | Wyoming | External CPA $500–2,000 | $1,660–3,160 |
+
+**Notes**: Mercury approval not guaranteed for non-residents (tightened 2025–2026). None include tax residency analysis, PE risk assessment, or transfer pricing docs.
+
+---
+
+## Delaware vs Wyoming: The Real Difference for Non-Residents
+
+| Factor | Delaware | Wyoming |
+|---|---|---|
+| Annual state cost | ~$300/yr franchise tax | $60/yr annual report |
+| 5-year cost difference | — | ~$1,200 cheaper |
+| Privacy | Members on public record | Lifetime proxy for nominee filings available |
+| Single-member LLC protection | Weaker after recent case law | Explicitly protected by statute (§17-29-503) |
+| Court of Chancery | Available | Not available |
+| Banking | Mercury, Wise, Relay, Stripe all accepted | Mercury, Wise, Relay, Stripe all accepted |
+| Federal tax obligations | Form 5472, FBAR, FATCA | Form 5472, FBAR, FATCA |
+
+**Key points**:
+
+- Court of Chancery only matters for C-Corps with multiple shareholders, M&A, or VC disputes — irrelevant for single-member LLCs.
+- Banking access is identical — both states are accepted by Mercury, Wise, Relay, and Stripe.
+- Federal tax treatment is identical regardless of state.
+- **Recommendation**: Wyoming for solo founders unless actively raising VC (then Delaware C-Corp via Stripe Atlas).
+
+---
+
+## Do You Actually Need a US LLC? Decision Framework
+
+### When YES makes sense
+
+- 70%+ of revenue from US clients
+- Need Stripe US or US payment processing
+- Annual revenue > $20K
+- Want US banking (Mercury)
+
+### When NO is the better answer
+
+- No US clients or US-sourced revenue — creates $25,000/yr Form 5472 penalty risk for zero benefit
+- Revenue < $20K/year — maintenance costs represent 3.5–12.5% of revenue
+- No fixed tax residency established yet
+
+### True annual cost
+
+$700–2,500/year minimum: state fees + registered agent + Form 5472 CPA + bookkeeping.
+
+### Alternatives to a US LLC
+
+| Alternative | Approximate Annual Cost |
+|---|---|
+| Estonia OÜ | ~€200/yr + accounting |
+| UK Ltd | ~£30/yr + accounting |
+| Singapore Pte. Ltd. | ~$300/yr + accounting |
+| Hong Kong Ltd | ~$300/yr + accounting |
+
+---
+
+## Cross-Border Exit Planning
+
+### Two Exit Structures
+
+| Type | Description | Tax Risk |
+|---|---|---|
+| Asset Sale | Entity sells assets to buyer | Potential double taxation: entity pays tax on gain, then founder pays tax on distribution |
+| Stock / Membership Interest Sale | Founder sells ownership in the entity | Single taxable event at the founder level; generally more tax-efficient |
+
+### Three Jurisdictions Claiming Taxing Rights Simultaneously
+
+1. Entity formation jurisdiction (e.g., Wyoming, Delaware, Hong Kong)
+2. Founder's personal tax residency at the time of sale
+3. Buyer's jurisdiction (withholding obligations may apply)
+
+### Pre-Exit Checklist
+
+- Transfer pricing documentation current and defensible
+- IP ownership chain documented and clean
+- Contractor classification history reviewed (employee vs. contractor disputes can block a deal)
+- All compliance filings current
+- Good standing certificates obtained from formation state
+
+### Holding Period Requirements
+
+| Benefit | Requirement |
+|---|---|
+| QSBS exclusion (Section 1202) — up to $10M capital gains exclusion | 5 years in a US C-Corp |
+| US long-term capital gains rate | Asset held > 1 year |
+| Note | Any restructuring resets holding period clocks |
+
+### Anti-Avoidance Rules for Departing Founders
+
+| Country | Rule |
+|---|---|
+| United Kingdom | Temporary Non-Residence rules: gains realized within 5 years of departure are taxed as if you never left |
+| France | Similar departure tax and clawback provisions |
+| Germany | Exit tax on unrealized gains at departure; deferred payment available for EU moves |
+| Norway | Unrealized gains taxed at exit; 5-year clawback window |
+
+### Post-Exit Filing Obligations
+
+- Multi-jurisdiction tax filings in each country that claimed taxing rights
+- Foreign tax credit coordination to avoid double taxation
+- Entity dissolution in formation state (see Company Closure section)
+- Final-year bookkeeping and audit (if required) before dissolution
