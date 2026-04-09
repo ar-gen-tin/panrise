@@ -1,6 +1,14 @@
+<div align="center">
+
+<img src="assets/banner-cn.jpg" alt="Panrise Solo" width="720">
+
 # Panrise Solo
 
 **AI advisor for one-person companies going global** | 一人公司全球化合规顾问
+
+<img src="assets/banner-arch.jpg" alt="Architecture" width="720">
+
+</div>
 
 A Claude Code skill that turns Claude into an expert advisor for solo founders, freelancers, and digital nomads navigating international company formation, tax optimization, cross-border payments, and regulatory compliance.
 
