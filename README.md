@@ -27,9 +27,11 @@ Ask Claude about incorporating a company, and Panrise Solo activates automatical
 | Company Structures | Single entity, dual entity, nomad patterns |
 
 **Nationality-specific handling for:**
-- 🇨🇳 Chinese founders (forex controls, HK pathway, CRS, ODI)
+- 🇭🇰 Hong Kong founders (offshore profits exemption, FSIE regime, banking)
 - 🇮🇳 Indian founders (FEMA/LRS, TCS, DTAA, Angel Tax)
 - 🇺🇸 US citizens (worldwide taxation, CFC/GILTI traps, FEIE)
+- 🇯🇵 Japanese founders (Foreign Exchange Act, worldwide income)
+- 🇸🇬 Singapore founders (startup exemption, 0% capital gains, 80+ DTAs)
 - 🇧🇷 Brazilian founders (Central Bank forex complexity)
 
 ## Install
