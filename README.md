@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="assets/banner-cn.jpg" alt="Panrise Solo" width="720">
+<img src="assets/banner-arch.jpg" alt="Panrise Solo — 3-layer architecture" width="720">
 
 # Panrise Solo
 
 **AI advisor for one-person companies going global** | 一人公司全球化合规顾问
-
-<img src="assets/banner-arch.jpg" alt="Architecture" width="720">
 
 </div>
 
